@@ -1148,6 +1148,16 @@ $('btn-reset').onclick = function(){
 /* 离线缓存只在 https / localhost 下才允许注册，本机 IP 打开时会被浏览器拒掉——
    这是浏览器的规矩，不是坏了。真离线得走 GitHub Pages 的 https 地址。 */
 if('serviceWorker' in navigator && location.protocol === 'https:'){
+  // 新版 sw.js 装好接管时**自动刷一次**，省得"打开两次才看到新版本"。
+  // 只在本来就有 SW 接管的情况下才刷（首次安装不算），再用 sessionStorage 兜一道，
+  // 万一 sw.js 反复重装也不会进死循环
+  if(navigator.serviceWorker.controller){
+    navigator.serviceWorker.addEventListener('controllerchange', function(){
+      if(sessionStorage.getItem('sw-reloaded')) return;
+      sessionStorage.setItem('sw-reloaded', '1');
+      location.reload();
+    });
+  }
   navigator.serviceWorker.register('sw.js').catch(function(){});
 }
 </script>
