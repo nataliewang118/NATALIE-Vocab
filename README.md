@@ -11,8 +11,8 @@
 
 ## 词库
 
-**2210 个 CET6 词条**（几个同形词合并后），每条带 IPA 音标、中文释义、完整释义，
-其中 **2000+ 条配了英文例句**。
+**2220 个 CET6 词条**（几个同形词合并后），每条带 IPA 音标、中文释义、完整释义，
+其中 **2178 条配了英文例句**。
 
 数据来源：
 
@@ -41,17 +41,23 @@
 发布到 GitHub Pages 后**电脑不用开机也能用**，断网也能用（离线缓存只在 https 下才让注册，
 这是它比本机模式强的地方）。
 
-```bash
-cd cet6-vocab
-git init && git add -A && git commit -m "六级词汇"
-gh repo create cet6-vocab --public --source=. --push
-gh api -X POST repos/nataliewang118/cet6-vocab/pages -f "source[branch]=master" -f "source[path]=/"
-gh api repos/nataliewang118/cet6-vocab/pages --jq .status   # 轮询到 built（约 20-40 秒）
+网址是 <https://nataliewang118.github.io/cet6-vocab/>。
+
+改完发布就三步：
+
+```
+git commit -am "改了什么"
+python _push_api.py
 ```
 
-网址是 <https://nataliewang118.github.io/cet6-vocab/>。之后改完发布就两步：
-`git commit -am "改了什么"` + `git push`，约 1 分钟后生效。
-浏览器里**打开两次**才是新的（第一次拿缓存，第二次才轮到后台取回的版本）——不是没生效。
+**不要用 `git push`，推不上去。** 这台机器上 `github.com` 被墙（连 443 超时），
+但 `api.github.com` 是通的，所以 `_push_api.py` 走 Git Data API 把当前 commit 送上去。
+它每次都是**拿远端最新 + 本地 HEAD 打一条新 commit**，不是覆盖，历史是连着的。
+
+> 分支是 `master`（跟积分小天地、小狐狸侦探一致），Pages 从根目录发布。
+
+推完约 1 分钟生效。浏览器里**打开两次**才是新的
+（第一次拿缓存，第二次才轮到后台取回的版本）——不是没生效。
 
 ## 三个方向
 
@@ -179,6 +185,7 @@ python _test.py
 | `_build_sents.py` | 例句挑选 + → index.html |
 | `_icon.py` | 生成主屏幕图标 |
 | `_test.py` | 回归测试 |
+| `_push_api.py` | 发布（走 API，因为 `git push` 被墙） |
 | `sw.js` / `manifest.webmanifest` | 离线缓存 / PWA 清单 |
 | `start-server.bat` | 本机起服务（端口 8011） |
 | `_data/` | 下载的原始语料，不入库 |
