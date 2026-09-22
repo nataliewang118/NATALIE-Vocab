@@ -1,0 +1,2181 @@
+# 句子练习例句。一行一句： 单词 | 英文句子 | 中文（可空，留空就写 -）
+# 这是 _build_sents.py pick 生成的初稿，改完跑 inject。
+# 挖空是 inject 时按「单词」那一列自动做的，别在句子里自己写 ___。
+abandon | The captain gave the order to abandon the ship. | -
+abnormal | Her behavior is abnormal for a young girl. | -
+abolish | Many revolutions have aimed to abolish the aristocracy. | -
+abortion | The independent candidate took the abortion issue off his platform. | -
+abrupt | Tom has an abrupt manner but a kind heart. | -
+absence | Please make my excuses for absence to your mother. | -
+absorb | Cod fritters are delicious, but absorb lots of fat. | -
+abstract | The new theory is too abstract for ordinary people. | -
+absurd | You cannot achieve the impossible without attempting the absurd. | -
+abundance | There is an abundance of pictures in the book. | -
+abundant | Hydrogen is the most abundant element in the universe. | -
+abuse | We can only abuse of things that are good. | -
+academic | He is unable to concentrate on his academic work. | -
+accelerate | Sami's life began to accelerate at an incredible pace. | -
+acceptance | His acceptance of the present was regarded as bribery. | -
+access | We gained access to the house through the window. | -
+accessory | He was arrested as an accessory to the robbery. | -
+accident | The girl was badly injured in the traffic accident. | -
+accommodate | You will soon accommodate yourself new ways of living. | -
+accommodation | The money collected allowed the construction of new accommodation. | -
+accomplish | You must persevere before you can accomplish anything great. | -
+accord | The story is not in accord with the facts. | -
+accordance | Everything should be done in accordance with the rules. | -
+account | I do not have an account in these forums. | -
+accumulate | Car windows accumulate frost on winter mornings. | -
+accurate | For accurate study results questions must be asked verbatim. | -
+accuse | Do people ever accuse you of being stuck-up? | -
+accustomed | You will soon get accustomed to your new school. | -
+achievement | Great difficulties stand in the way of its achievement. | -
+acid | The student knows the common name of acetylsalicylic acid. | -
+acknowledge | Most would acknowledge that he was a sparkling young man. | -
+acquaint | You should acquaint yourself with the local customs. | -
+acquaintance | She is more of an acquaintance than a friend. | -
+acquire | I managed to acquire two tickets for the concert. | -
+activate | You must activate the software before you can use it again. | -
+acute | A dog has an acute sense of smell. | -
+adapt | We must adapt our plan to these new circumstances. | -
+addict | She said that her mother was a drug addict. | -
+addition | We had to pay ten thousand yen in addition. | -
+additional | This additional work will take about two hours more. | -
+adequate | That threw adequate light on his feelings toward her. | -
+adhere | Players must adhere to the rules of the game. | -
+adjacent | My home town is adjacent to the ocean. | -
+adjoin | The two villages adjoin each other. | -
+adjust | You have to adjust your glasses to your eyes. | -
+administration | We need someone who has some experience in administration. | -
+admit | You must admit that you are in the wrong. | -
+adolescent | It is said that adolescent friendships do not often last. | -
+adopt | Tom was hoping the committee would adopt his proposal. | -
+adore | We have a cat, and we all adore him. | -
+advantage | He took advantage of my ignorance and deceived me. | -
+adverse | Our plane was cancelled because of adverse weather conditions. | -
+advocate | I am an advocate of free speech for everybody. | -
+aerial | The town was subjected to an aerial attack. | -
+aesthetic | I look at it from an aesthetic point of view. | -
+affection | The baby transferred its affection to its new mother. | -
+affiliate | Why did you decide to affiliate yourself with Company A? | -
+affirm | The exploiting classes try to immortalize false worldviews to affirm and strengthen their domination. | -
+afflict | My motto is: Comfort the afflicted and afflict the comfortable. | -
+aggregate | Strawberries and raspberries are both examples of an aggregate fruit. | -
+aggressive | You have to be aggressive to be a success. | -
+agony | At the time of her death, she suffers agony. | -
+agreeable | Tom has naturally a very agreeable voice and utterance. | -
+aid | The tape recorder is a useful aid to teaching. | -
+aisle | His seat in the plane was on the aisle. | -
+alarm | The alarm sent everyone rushing out of the room. | -
+album | This album reminds me of my happy school days. | -
+alcohol | The doctor advised him to ease up on alcohol. | -
+alert | The hunter was alert to every sound and movement. | -
+alien | It had an effect alien from the one intended. | -
+alienate | In order to conquer the centre, we'll have to alienate the left wing of the party. | -
+allege | I allege that you are wrong, so I don't want to say a word anymore. | -
+alleviate | This medicine will alleviate the pain. | -
+alliance | There is an important alliance between these two countries. | -
+allocate | A committee of experts determines how to allocate the money. | -
+alloy | Cast iron is an alloy of iron and carbon. | -
+alter | As the artist grows older his paintings may alter. | -
+alternate | There are pictures on alternate pages of the book. | -
+alternative | You leave me no alternative but alert the authorities. | -
+ambiguous | His ambiguous reply made her all the more irritated. | -
+ambition | The foundation of a college was her great ambition. | -
+ambitious | The ambitious man became intoxicated with his own success. | -
+amend | Some people want to amend the constitution. | -
+ammunition | The statistics gave ammunition to her argument. | -
+analogy | I see no analogy between your problem and mine. | -
+analyse | The council held a meeting to analyse the rescheduling. | -
+analysis | This is a good place to start the analysis. | -
+ancestor | All living beings would have evolved from a common ancestor. | -
+ancient | You can see the ancient ruins in the distance. | -
+annoy | This will teach you not to annoy other people. | -
+annual | Our company has annual sales of a thousand million yen. | -
+anonymous | An anonymous tip lead the police to the truth. | -
+anticipate | We do not anticipate their buying a new car. | -
+anxiety | I have been waiting for the results with anxiety. | -
+apartment | The old man lived in the three-room apartment. | -
+apology | I must offer you an apology for coming late. | -
+apparatus | That school is equipped with the latest gymnastics apparatus. | -
+appeal | This kind of picture does not appeal to me. | -
+appearance | It was not long before they made their appearance. | -
+appease | Management tried to appease labor by offering them a bonus. | -
+appendix | I am going to remove the appendix. | -
+applaud | The whole audience got up and started to applaud. | -
+appliance | The demonstrator convinced him to buy the expensive appliance. | -
+application | We regret that your application has not been accepted. | -
+apply | What you said does not apply to this case. | -
+appraisal | Tom generally makes good decisions based on a realistic appraisal of the situation he's faced with. | -
+approach | It is the correct approach to modern ski technique. | -
+appropriate | Please review the contents and provide any appropriate feedback. | -
+approve | I cannot approve of your going out with him. | -
+apt | The rich are apt to look down on people. | -
+arbitrary | Latin word order is free, but not arbitrary. | -
+arc | The rainbow forms an arc in the sky. | -
+arena | Layla's house became an arena for a fight to the death. | -
+argue | It is no use trying to argue with him. | -
+armor | He who wears armor falls with a big crash! | -
+arouse | His opinion does not arouse any sympathy in his colleagues. | -
+arrange | He refused our offer to arrange a press conference. | -
+arrangement | Emily is very interested in tea ceremony and flower arrangement. | -
+array | Tom has an extraordinary array of trophies. | -
+arrest | They attacked soldiers who were sent to arrest them. | -
+arrogant | I have the impression that he is quite arrogant. | -
+artery | The bullet cut through an artery. | -
+articulate | Sometimes he has difficulty being articulate about his views. | -
+artificial | Today our artificial satellites are revolving around the earth. | -
+artillery | Sami had an artillery vest. | -
+ascend | The skyscraper's elevators ascend at an astonishing rate of speed. | -
+ascertain | We will first ascertain the cause of the disaster. | -
+ascribe | We ascribe his success to hard work. | -
+aspect | The critic considered every aspect of the defense program. | -
+aspiration | He studied day and night in aspiration to possibly become a lawyer. | -
+assassination | Assassination has never changed the history of the world. | -
+assault | Tom was convicted of assault with a deadly weapon. | -
+assemble | It is rather difficult to assemble a watch. | -
+assert | Layla began to assert herself a little more. | -
+assess | You must assess the situation and act accordingly. | -
+asset | Many people these days are asset-rich but time-poor. | -
+assign | I have to assign more men to that work. | -
+assignment | I have just finished one third of my assignment. | -
+assimilate | The weak easily assimilate the opinions of the strong. | -
+assistance | The governor decided to provide assistance for the victims. | -
+associate | You had better not associate with those men. | -
+association | The association has excluded amateurs ever since its foundation. | -
+assume | I assume the two of you know each other. | -
+assumption | How much confidence exists that this assumption is correct? | -
+assurance | I can give you my personal assurance of that. | -
+assure | I assure you everything will be ready on time. | -
+athlete | He was a good student and a good athlete. | -
+atlas | Atlas is often depicted carrying the Earth on his shoulders. | -
+atmosphere | The atmosphere in the room was hot and smoky. | -
+attach | I forgot to attach a stamp to the envelope. | -
+attack | A tiger will attack people when it is hungry. | -
+attain | I have to attain my purpose at all costs. | -
+attempt | The attempt ended in failure for want of support. | -
+attendant | I long for a job as a flight attendant. | -
+attitude | His friends were uncomfortable with his high-handed attitude. | -
+attract | Coral reefs attract a variety of beautiful marine life. | -
+attractive | Mary has as attractive a personality as her sister. | -
+attribute | We attribute his success more to hard work than to genius. | -
+auction | The magnificent stallion fetched a huge price at auction. | -
+audience | The audience was carried away by his touching performance. | -
+authentic | His scores could only be properly interpreted by authentic virtuosos. | -
+author | Its author is little more than a college kid. | -
+authoritative | Mary is outspoken and authoritative. | -
+authority | Ritsuko is something of an authority on the subject. | -
+authorize | We authorize the workers to take company cars home. | -
+autonomous | Welcome to the next generation of autonomous vehicles. | -
+autonomy | If I borrow the money, I feel like I'll lose my autonomy. | -
+avail | You should avail yourself of every opportunity to learn. | -
+available | Please inform me what options are available to me. | -
+avert | Skillful diplomacy helps to avert war. | -
+aviation | The history of the development of aviation is fascinating. | -
+avoid | I stood under a tree to avoid getting wet. | -
+award | The album was long-listed for a music award. | -
+aware | A problem of whose importance we are fully aware. | -
+awkward | At first the trainees were awkward in his company. | -
+axis | He played an important part like an axis. | -
+background | Pay will be based on experience and educational background. | -
+bacteria | The salmonella bacteria are directly associated with the turtles. | -
+ballet | He stands alone as a conductor of ballet music. | -
+bamboo | This bamboo is too thin to bear much weight. | -
+band | We need to band together to beat the enemy. | -
+bandage | The nurse gently put a bandage around my head. | -
+bang | They set off fireworks with a great bang. | -
+banquet | I saw some of the guests leave the banquet room. | -
+barely | I had barely got home when the storm broke. | -
+bargain | I make a bargain with him over the price. | -
+barren | The trees are barren or bear only small fruit. | -
+barricade | The rebels made a barricade across the road. | -
+barrier | High tariffs have become a barrier to international trade. | -
+basis | Food, clothing and shelter are the basis of life. | -
+batch | Another batch of cookies are coming out of the oven. | -
+batter | The manager sent the bunt sign to the batter. | -
+beam | She wobbled as she walked across the balance beam. | -
+beforehand | Please come to class having reviewed the materials beforehand. | -
+behave | You are old enough to know better. Behave yourself. | -
+behavior | Politicians are always censured for outrageous or inappropriate behavior. | -
+belly | Tom lifted up his shirt and exposed his belly. | -
+beneficial | I believe that multiculturalism is beneficial for a nation. | -
+benefit | You should read such books as will benefit you. | -
+betray | He would be the last man to betray you. | -
+bewilder | Tom's paintings were so chaotic and abstract that they tended to bewilder viewers. | -
+beyond | Such matters are beyond the bounds of human knowledge. | -
+bibliography | Hand in a bibliography of your sources. | -
+biography | He wrote a biography of a famous poet. | -
+bizarre | I wonder who this bizarre law is for. | -
+blank | She met my feeble joke with a blank stare. | -
+blaze | A fire was seen to blaze up far away. | -
+bleed | The pin pierced his finger and it began to bleed. | -
+blink | The plane went out of sight in a blink. | -
+blossom | I hope their relationship will blossom into something permanent. | -
+blunder | I am not responsible to you for my blunder. | -
+blunt | A love triangle has at least two blunt angles. | -
+blur | I can't remember anything. It's just one big blur. | -
+blush | Layla put a lot of blush on her face. | -
+bonus | I blew my whole bonus on shopping and travel. | -
+booklet | He supplemented his lecture with a booklet. | -
+boom | Japan has long been favored by a business boom. | -
+booth | I have left my umbrella in the phone booth. | -
+border | I was asked for my passport at the border. | -
+boring | So boring was the lecture that he fell asleep. | -
+bounce | Hit the ball after the bounce. | -
+bound | You are bound to fail unless you study harder. | -
+bowel | I have not had a bowel movement for a week. | -
+boycott | The boycott lasted a little more than a year. | -
+brace | Tom has a brace on his right leg. | -
+bracket | In my age bracket, there are no job offers available. | -
+brand | He gave me a select brand of canned goods. | -
+breach | They made a breach in the wall. | -
+breakdown | He is on the verge of a nervous breakdown. | -
+breakthrough | Representatives made a major breakthrough in the trade talks. | -
+breed | Some animals will not breed when kept in cages. | -
+brew | Human nails were part of the witch's brew. | -
+bribe | He is the last man to take a bribe. | -
+brief | I cannot do it in such a brief time. | -
+brilliant | The stars were brilliant in the clear night sky. | -
+brink | Many animal species are on the brink of extinction. | -
+brisk | It's invigorating to breathe the brisk, fresh mountain air. | -
+bronze | The bronze statue looks quite nice from a distance. | -
+brood | The hen keeps her brood under her. | -
+bruise | Tom has a black bruise on his right leg. | -
+brutal | The city was ruined by the brutal force of nature. | -
+buck | Greedy cats are out for a fast buck. | -
+bud | The orchardist grafted an apple bud onto the rootstock. | -
+budget | My boss rejected the budget for the new project. | -
+bug | Every non-trivial program has at least one bug. | -
+bulk | He finished the bulk of his work before dinner. | -
+bull | You have to take the bull by the horns. | -
+bulletin | We can get a weather bulletin every day. | -
+bully | Tom was a bully when he was a teenager. | -
+bump | Sasha had a huge bump on his head. | -
+burden | Supporting his family was a great burden for him. | -
+bureaucracy | Sami is a victim of your incompetent bureaucracy. | -
+burial | When was the last time you were at a burial ceremony? | -
+bust | Sami thought the cops were going to bust him. | -
+buzz | Bees always buzz near the kitchen window. | -
+bypass | A bypass allows more blood to flow to the heart. | -
+cabin | This is snowy weather is giving me cabin fever. | -
+cabinet | A cabinet is a cupboard used for displaying things. | -
+cable | We need to connect this cable to the generator. | -
+cafeteria | I am tired of eating at the school cafeteria. | -
+calcium | Spinach is a rich source of iron and calcium. | -
+calorie | Adopting a low calorie diet will increase your lifespan. | -
+cancel | A sudden illness forced her to cancel her appointment. | -
+cancer | Smoking has a great deal to do with cancer. | -
+candidate | The candidate waved his hand to whomever he saw. | -
+cane | Tom can walk only if he has his cane. | -
+cannon | Never use a cannon to kill a fly. | -
+canvas | This world is but canvas to our imaginations. | -
+capable | These elevators are each capable of carrying ten persons. | -
+capacity | This book is within the capacity of young readers. | -
+cape | There a cape pushes out into the sea. | -
+capsule | Take this capsule within thirty minutes of each meal. | -
+captive | The captive escaped in the dark of the night. | -
+cardinal | The cardinal directions are: north, south, east, and west. | -
+carve | Tom began to carve the turkey. | -
+cast | Voters cast their ballots for mayor every four years. | -
+casual | The fact is apparent to the most casual observer. | -
+casualty | The first casualty of every war is the truth. | -
+catastrophe | We will first describe the cause of the catastrophe. | -
+cater | We cater to you, the customer with refined taste. | -
+cathedral | This cathedral was built more than four centuries ago. | -
+catholic | Mary is Catholic, but her boyfriend is an atheist. | -
+caution | I prefer to err on the side of caution. | -
+cautious | He is too cautious to try anything new. | -
+cavity | Sami has never had a cavity in his life. | -
+cellar | The cellar-door flew open with a booming sound. | -
+cemetery | I buried my dog at the pet cemetery. | -
+census | "Trasianka" will be equalized with Belarusian language during the census. | -
+ceramic | She became rich by making ceramic pieces. | -
+cereal | Tom usually eats a bowl of cereal for breakfast. | -
+certainty | I can say with certainty that he hates me. | -
+certify | He tried to certify the matter as correct. | -
+challenge | Joe found that he needed to accept the challenge. | -
+champagne | Tom brought a bottle of champagne to the party. | -
+champion | He is what is called a champion of justice. | -
+chant | The crowd began to chant. | -
+chapel | It is said that the old chapel is haunted. | -
+character | There is more in his character than simple honesty. | -
+characteristic | That kind of behavior is characteristic of the boy. | -
+characterize | How would you characterize the economy right now? | -
+charge | Banks charge higher interest on loans to risky customers. | -
+chase | Sami wanted to chase the liquor with some juice. | -
+cherish | Free man, always you will cherish the sea. | -
+chief | The section chief made me work like a slave. | -
+chip | Japan disproved phony accusations of computer chip dumping. | -
+cholesterol | It is best to avoid eating high cholesterol foods. | -
+chord | A seventh chord is composed of four notes. | -
+chorus | I did not listen to the chorus of that song. | -
+chronic | Sami was a victim of chronic arsenic poisoning. | -
+chunk | I was hit by a huge chunk of meat. | -
+circulation | He suffers from poor blood circulation to his legs. | -
+circumstance | The new bishop was installed with much pomp and circumstance. | -
+circus | The elephants are the chief attraction at the circus. | -
+cite | To cite usage against rule, in a constructed language, is insane. | -
+claim | I will be waiting for you at baggage claim. | -
+clamp | A wise businessman knows how to clamp down on costs. | -
+clan | These figures are signs of a family or clan. | -
+clarity | I was astonished by the clarity of the picture. | -
+clash | Every now and then they clash over their differences. | -
+clasp | He held her hand in a firm clasp. | -
+classic | I will get that classic car at all costs. | -
+classical | I like not only classical music but also jazz. | -
+classification | Support vector machines are supervised learning models used for classification and regression analysis. | -
+clearance | Tom bought that pair of shoes at a clearance sale. | -
+clerk | He gets a reasonable salary as a bank clerk. | -
+client | He tried to imagine what the client was like. | -
+cliff | There is a narrow path running along the cliff. | -
+climate | The climate affected the growth of trees and plants. | -
+climax | The audience sobbed throughout the climax of the movie. | -
+cling | I do not cling to life sufficiently to fear death. | -
+clip | Sami used a paper clip to unlock his handcuffs. | -
+clockwise | The merry-go-round rotates clockwise. | -
+clone | The army decided to clone hundreds of copies of the handsome, athletic man. | -
+closet | I was afraid of being put into a closet. | -
+clue | He found a clue to solve the mysterious affair. | -
+cluster | The cluster of cells continued to grow in the laboratory. | -
+clutch | He slowly let the clutch out and drove off. | -
+coalition | The coalition is trying to paper over the cracks. | -
+coarse | Her skin is coarse from years of working outdoors. | -
+cocaine | Sami used to smoke cocaine all the time. | -
+cocktail | She worked as a cocktail waitress in a casino. | -
+cognitive | This psychological study investigates the cognitive factors of memory. | -
+coherent | Our tax system is still without coherent philosophy. | -
+coincide | It's clear that our arguments don't coincide at all. | -
+coincidence | We happened to meet again through a strange coincidence. | -
+collaboration | I would like to thank you for your collaboration. | -
+collapse | The house seemed about to collapse at any moment. | -
+colleague | Black eyeglasses cover the eyes of my blind colleague. | -
+collide | Egoists do not meet, they collide with each other. | -
+collision | The car exploded a few moments after the collision. | -
+colonial | There are controversial works referring to the colonial period. | -
+combat | There is nothing like reality to combat illusions. | -
+combination | A combination of several mistakes led to the accident. | -
+combine | It is not easy to combine hobbies with profits. | -
+comet | He claimed that he had discovered a new comet. | -
+comic | He was caught reading a comic book in class. | -
+command | He raised his hand as if to command silence. | -
+commemorate | Jews don't celebrate the holocaust, they commemorate it. | -
+commence | The conference will commence in due course. | -
+commend | I commend Tom for his bravery. | -
+commentary | People sometimes narrate their actions to themselves as a running commentary. | -
+commercial | I would never feed my dog commercial dog food. | -
+commission | He has received a commission as a naval officer. | -
+commit | Many young men tend to commit the same errors. | -
+commitment | After this great commitment success will be sure. | -
+committee | The committee was not disposed to hold another meeting. | -
+commodity | Salt was a rare and costly commodity in ancient times. | -
+commonplace | Space travel will be commonplace some time in the future. | -
+commonwealth | Barbados is a member of the Commonwealth. | -
+communicate | We can communicate with each other in many ways. | -
+communication | All communication with that airplane was suddenly cut off. | -
+community | Conformity is an essential element of our homogeneous community. | -
+commute | Tom likes to solve crossword puzzles on his commute. | -
+compact | I want a compact car with an air conditioner. | -
+companion | Gun collecting is a poor companion to child rearing. | -
+comparable | As you know, life is comparable to a voyage. | -
+compare | You must not compare a man with a woman. | -
+comparison | The comparison between the two was to his disadvantage. | -
+compartment | Tom pulled a map out of the glove compartment. | -
+compatible | My tape recorder is compatible with your amplifier. | -
+compel | I compel you to adhere to our master's teachings. | -
+compensate | You must compensate him for the money he lost. | -
+compete | We must compete with the local stores in price. | -
+competence | Develop your linguistic competence as much as possible. | -
+competitive | He is really competitive when it comes to football. | -
+compile | We should compile a list of everybody who would be willing to help. | -
+complain | He does nothing but complain from morning till night. | -
+complaint | The official could not deal with the complaint himself. | -
+complement | A complete intransitive verb takes neither complement nor object. | -
+complex | What seems simple to you seems complex to me. | -
+complexion | It puts a different complexion on the situation. | -
+complicated | The answer is more complicated than you might think. | -
+complication | We have a complication here. | -
+compliment | They paid a high compliment to the speaker. | -
+comply | We shall be pleased to comply with your request. | -
+component | All his ideas had a strong dreamlike component. | -
+compose | Tom took a breath and tried to compose himself. | -
+compound | The pain of the compound fracture was almost unbearable. | -
+comprehension | My comprehension of complex subjects like these is limited. | -
+comprehensive | The lessons must provide a comprehensive and differentiated vocabulary. | -
+compromise | We tried to come to a compromise with them. | -
+compulsory | The scholar regards so-called compulsory education as useless. | -
+compute | Scientists can easily compute the distance between planets. | -
+concede | We must concede that we committed an error. | -
+conceive | It is impossible to conceive of many without one. | -
+concentrate | He is unable to concentrate on his academic work. | -
+concentration | Ready comprehension requires concentration, focusing entirely on one's reading. | -
+concept | The math teacher explained the concept of partial differentiation. | -
+conception | Tom had no conception of what fatherhood entailed. | -
+concern | Our chief concern should be the aging of society. | -
+concise | Sami presented a clear and concise version of events. | -
+conclude | I have to conclude this deal within a week. | -
+condemn | The doctors were wrong to condemn the couple. | -
+conduct | His diligence and good conduct earned him the scholarship. | -
+confer | I must confer with my colleagues on the matter. | -
+conference | They are now sitting in conference on that question. | -
+confidence | I do not put my complete confidence in him. | -
+confident | He is confident that he will pass the examination. | -
+confidential | His secretary flatly denied leaking any confidential information. | -
+configuration | Tom's face detected an unsupported facial hair configuration. | -
+confine | We should confine the discussion to the question at issue. | -
+confirm | This is just to confirm receipt of your letter. | -
+conflict | Diplomatic dialogue helped put an end to the conflict. | -
+conform | We should conform to the customs of society. | -
+confront | Sami was determined to confront the problem head on. | -
+confusion | A power failure contributed to the confusion in the hall. | -
+congress | The photo shows a group of the congress participants. | -
+conscientious | Only the conscientious students came to the lecture. | -
+conscious | People are more conscious nowadays and choose healthy food. | -
+consecutive | Tom has been sentenced to three consecutive life sentences. | -
+consensus | The people did not reach consensus on taxation. | -
+consent | My silence is not to be read as consent. | -
+consequence | He changed his mind in consequence of the marriage. | -
+consequent | Consequent conduct is specified. | -
+consequently | The truth is opaque and consequently imperceptible. | -
+conservation | The organization plays a principal role in wildlife conservation. | -
+conservative | His views were too conservative for people to accept. | -
+conserve | This boss has three stages, so conserve your health. | -
+considerable | The nuclear ship was built at a considerable expense. | -
+considerate | It was very considerate of you to do that. | -
+consist | Happiness does not consist only in having many things. | -
+consistent | His daily behavior is not consistent with his principles. | -
+console | There are some red lights blinking on the console. | -
+consolidate | We need to consolidate the access control code. | -
+conspicuous | The scar on his forehead is conspicuous. | -
+constant | We have kept in constant touch for twenty years. | -
+constitute | It does not constitute an investment advice. | -
+constitution | With his muscular constitution he passes for a judoist. | -
+constrain | What human trespass would constrain thy power, O Zeus? | -
+construct | I will construct a wooden building. | -
+consult | The teacher has always been easy to consult with. | -
+consultant | The debate over which consultant to use went on for hours. | -
+consume | Please consume within one to two days of opening. | -
+consumer | The consumer price index has been fluctuating wildly. | -
+consumption | This product shall be used for local consumption only. | -
+contact | A truck came into contact with the bridge supports. | -
+contaminate | If you don't wash your hand before working, you'll contaminate the samples. | -
+contemplate | Do you believe that elephants can contemplate life after death? | -
+contempt | I feel nothing but contempt for such dishonest behavior. | -
+contend | He had to contend against physical suffering. | -
+contention | Spread the table, and contention will cease. | -
+contest | The weak boy was eliminated from the bitter contest. | -
+continual | Today is the fifth day of continual stock price decline. | -
+continuity | There were some problems with continuity from the old administration to the new. | -
+contract | They wanted to negotiate the contract on equal terms. | -
+contradict | Let our action never contradict what we have said. | -
+contradiction | Our diplomacy and our military strategy were clearly in contradiction. | -
+contrast | The contrast between the two ideas is very marked. | -
+contribute | The robots are sure to contribute to the world. | -
+contribution | He made a great contribution to research into cancer. | -
+contrive | He doesn’t know what causes it, but just wait. He’ll contrive an explanation. | -
+controversial | He was criticized for voicing such a controversial opinion. | -
+controversy | The senator remained neutral in the furious controversy. | -
+convenience | The small thug beat up the convenience store employee. | -
+convention | Progress in science was often barred by convention. | -
+conventional | Plastics have taken the place of many conventional materials. | -
+converge | Why do physicists converge? Because they're monotonous and narrow. | -
+conversion | A loft conversion can add considerable value to a property. | -
+convert | Batteries are devices that convert chemical energy to electricity. | -
+convey | It is difficult to convey the meaning exactly. | -
+convict | The convict was pardoned after serving his sentence. | -
+convince | Write down the facts needed to convince other people. | -
+cooperative | My mother attached herself to a cooperative society. | -
+cope | The police were able to cope with the crowd. | -
+cord | The father was the one who cut the cord. | -
+cordial | I was pleased no end by the cordial welcome. | -
+cork | Tom put the cork back into the wine bottle. | -
+corporate | The deterioration of corporate earnings has yet to bottom out. | -
+corps | Our town does not have a corps of firemen. | -
+corpse | The corpse has a gunshot wound in the chest. | -
+correspondent | A correspondent must soon adjust himself to life abroad. | -
+corresponding | You have certain privileges and therefore corresponding responsibilities. | -
+corrode | The substance can irritate or corrode the skin, eyes, or mucous membranes. | -
+corrupt | Power tends to corrupt and absolute power corrupts absolutely. | -
+costume | Tom was the only one not wearing a costume. | -
+council | The teacher affirmed the decision of the student council. | -
+counsel | He makes himself accessible to all who seek his counsel. | -
+counter | Tom introduced himself to the people behind the counter. | -
+coupon | Nir has a discount coupon for the museum's exhibition. | -
+court | The court called on the lawyer to give evidence. | -
+courtesy | She did me the courtesy of answering my letter. | -
+coverage | The squadron encountered an ambush and scrambled for coverage. | -
+coward | The boy mocked his friend for being a coward. | -
+cozy | His home is furnished in a very cozy way. | -
+cradle | The hand that rocks the cradle rules the world. | -
+crash | The sole survivor of the crash was a baby. | -
+creation | Scientific truth is a creation of the human mind. | -
+credible | The websites of some predatory publishers look credible. | -
+credit | We gave you credit for more sense than that. | -
+crew | Mark was a work horse on his construction crew. | -
+crime | No one has been convicted of the crime yet. | -
+criminal | The police caught sight of the criminal running away. | -
+cripple | I didn't make you a cripple. | -
+crisis | We often hear about an energy crisis these days. | -
+crisp | Grab the meat before it burns to a crisp! | -
+criterion | My criterion is the ability to work joyfully. | -
+critic | The great critic and the poet are traveling together. | -
+critical | Today we stand at a critical point in history. | -
+criticism | The brunt of criticism was borne by the chairmen. | -
+criticize | No one found any reason to criticize his actions. | -
+crowd | A girl approached the king from among the crowd. | -
+crucial | Mental strength is crucial for success in any sports. | -
+crumble | The church's steeple is beginning to crumble with age. | -
+crush | He has a crush on the girl next door. | -
+cucumber | I like to eat yellow rice with cucumber pickles. | -
+culture | I want to get a fix on local culture. | -
+curb | Sami came to the edge of the curb. | -
+current | The figurative meaning is no longer in current use. | -
+curse | The family seemed to be under a curse. | -
+customary | In hotels, it's customary to install wall-to-wall carpeting. | -
+cute | That cute baby is the fruit of their love. | -
+cycle | We are going to cycle to the lake tomorrow. | -
+cylinder | The gas was compressed into a gas cylinder. | -
+cynical | Inside every cynical person is a disappointed idealist. | -
+dart | The last dart he threw, bounced off the board. | -
+database | Progress is monitored daily and stored in a database. | -
+dazzle | Where did you dazzle them? | -
+deadline | You must get the job done before the deadline. | -
+deadly | All the most deadly poisons were in her laboratory. | -
+dean | The dean shook hands with each of the graduating students. | -
+debate | His proposal started a debate that lasted a year. | -
+decade | We have experienced many changes over the last decade. | -
+decay | Many local traditions have fallen into decay in recent years. | -
+deceive | The attempt to deceive me did not come off. | -
+decent | Layla was very bad at choosing a decent partner. | -
+decimal | Anna knows the first thousand decimal places of π by heart. | -
+decisive | I took a picture at the decisive moment. | -
+decorate | Sami promised his mother to help her decorate cookies. | -
+decrease | Sudden decrease in appetite is sometimes a sign of illness. | -
+decree | I need to escape from this decree. | -
+dedicate | I want to dedicate this song to him. | -
+deduce | We began to see what we can deduce from it. | -
+deduct | He could deduct the furnishing of his work room from his taxes. | -
+deem | The state can take your children away if they deem you an unfit mother. | -
+default | The default color of the desktop's background is blue. | -
+defeat | The lawsuit is likely to end in our defeat. | -
+defect | There must be a defect in the experimental method. | -
+defendant | The prosecution condemned the defendant for kidnapping a child. | -
+defiance | His brazen act of defiance almost cost him his life. | -
+deficiency | Body temperature rising, pulse rising ... he's in a state of oxygen deficiency. | -
+deficit | Eliminating the deficit will be a very difficult job. | -
+define | Context helps to define what is really meant. | -
+definitely | Tom definitely needs to be a bit more sociable. | -
+definition | Can you give me the definition of a cone? | -
+definitive | People are very skeptical these days unless you show them definitive proof. | -
+defy | I defy you to make it public. | -
+degenerate | Live can so easily degenerate into something sordid and vulgar. | -
+degrade | Don't degrade yourself by telling such a lie. | -
+deliberate | You must be deliberate in selecting a partner. | -
+delicate | The machine is so delicate that it easily breaks. | -
+demand | There is much demand for nurses in this hospital. | -
+demonstrate | These diagrams demonstrate different possible approaches to job seeking. | -
+denial | Death when it comes will have no denial. | -
+denote | The tilde is used in math to denote equivalence. | -
+denounce | We all denounce cheating on tests. | -
+dentist | The committee man is a dentist in private life. | -
+deny | It is no use your trying to deny it. | -
+depict | Many fantasy novels depict worlds with two moons. | -
+deport | If I don't take care of all the bureaucratic issues, they'll simply deport me. | -
+depress | Rain doesn't depress people who like reading. | -
+depression | The report states that there will be a depression. | -
+deprive | This law will deprive us of our basic rights. | -
+derive | A wise man can derive gold even from pus. | -
+descend | Mary was the first to descend from the ship. | -
+descendant | She was the youngest descendant of the king. | -
+descent | Ladies and gentlemen, we are about to begin our descent. | -
+describe | Linguistics is the discipline which aims to describe language. | -
+deserve | We want to help you because you deserve it. | -
+design | A gardener was called in to design the garden. | -
+designate | The blue lines on the map designate rivers. | -
+desirable | It is desirable that you should attend the meeting. | -
+desire | Not only career-minded women have desire to work. | -
+despise | You must not despise someone because they are poor. | -
+despite | No cure was possible, despite the abatement of symptoms. | -
+destination | Round-trip fares to each destination are as follows. | -
+destined | He was destined never to see his wife again. | -
+destiny | I acted to protect myself from a similar destiny. | -
+destruction | They caused an untold amount of death and destruction. | -
+destructive | This destructive world has already experienced two world wars. | -
+detach | I didn't detach them. | -
+detail | I have no time to explain this in detail. | -
+detain | Don't let me detain you. | -
+detect | Our sensors did not detect anything out of the ordinary. | -
+detection | Sami took extreme calculated steps to avoid detection. | -
+detective | The man turned out to be a private detective. | -
+deteriorate | The situation may deteriorate at any time. | -
+deviate | I don't want to deviate from the plan. | -
+device | The device fits in the palm of your hand. | -
+devise | We must devise some means of escape. | -
+devote | I will devote myself to studying for the entrance exams. | -
+diagnose | That can diagnose anything, quicker and cheaper than a doctor. | -
+dictate | No one shall dictate to me. | -
+differentiate | We must be able to differentiate between objects and situations. | -
+diffuse | Layla tried to diffuse the situation. | -
+digest | Goat milk is easy for the body to digest. | -
+dignity | It is beneath my dignity to ask a favor. | -
+dilemma | Never in his life had he encountered such a dilemma. | -
+diligent | A diligent man will succeed in the long run. | -
+dilute | Can I use this solvent to dilute my sample? | -
+dim | Do not read books in such a dim room. | -
+dimension | That adds a new dimension to our problem. | -
+diminish | To say so should not diminish his importance. | -
+dine | I have an appointment to dine with him. | -
+diploma | The principal presented each of the graduates with diploma. | -
+diplomat | Kim means to be a diplomat in the future. | -
+directory | You can find her phone number in the directory. | -
+disable | I wish I could figure out how to disable comments on my blog. | -
+disaster | We will first ascertain the cause of the disaster. | -
+disastrous | If you left now, it would have disastrous consequences. | -
+discard | We do not want to discard the article but reshape it. | -
+discern | Comedy too can sometimes discern what is right. | -
+discharge | I have a discharge from my left ear. | -
+discipline | It goes without saying military discipline is literally rigid. | -
+disclose | She will have the courage to disclose their secret. | -
+discount | Honesty seems to be rather at a discount today. | -
+discreet | To do him justice, he is a discreet man. | -
+discrepancy | Please report discrepancy in data. | -
+discrete | Every march is composed of discrete steps. | -
+discriminate | We must be able to discriminate between objects and situations. | -
+disease | The doctor can cure your son of the disease. | -
+disguise | I was very surprised to find him in disguise. | -
+disgust | Her face reflects disgust and sadness, rather than anger. | -
+dismay | To my dismay, he was caught cheating in the examination. | -
+dismiss | I didn't want to dismiss it out of hand. | -
+disorder | The desk is in a state of total disorder. | -
+dispatch | Sami worked for an ambulance dispatch company. | -
+disperse | The children blow dandelions to see the seeds disperse on the wind. | -
+displace | The growing power of the new mercantile aristocracy was beginning to displace the medieval nobility's control. | -
+display | His latest works are on display at the square. | -
+disposal | The students have an excellent gym at their disposal. | -
+dispose | We have to dispose of the land. | -
+disposition | Tom is blessed with a cheerful disposition. | -
+disregard | She continued to see him in disregard of my advice. | -
+disrupt | He was careful not to disrupt the meeting. | -
+dissipate | The crowd began to dissipate. | -
+distill | Now we will distill this water. | -
+distinct | Your way of thinking is quite distinct from mine. | -
+distinguish | It is hard to distinguish you from your brother. | -
+distort | A true scientist would not distort facts. | -
+distract | Dan started an argument with the cashier to distract security. | -
+distribution | They argue that the distribution of wealth should be equitable. | -
+disturbance | Is this a servo or a disturbance-rejection problem? | -
+diverse | This place used to be much more linguistically diverse. | -
+diversion | Movies are a great diversion. | -
+divert | I tried to divert their attention without success. | -
+divine | Moses came down from the mountain bearing divine commandments. | -
+divorce | He is as cool as ever after his divorce. | -
+dizzy | Tom said he was starting to get very dizzy. | -
+dock | The ship is now in dock for a refit. | -
+doctrine | That doctrine will no doubt lead to dismal consequences. | -
+dodge | On his bicycle he can dodge through traffic with amazing speed. | -
+dole | Dole out your wisdom a little at a time. | -
+dolphin | I miss that television show about a friendly dolphin. | -
+domain | It's time for you to renew your domain name. | -
+dome | Buckminster Fuller is famous for the geodesic dome. | -
+domestic | Smoking is now banned on all domestic plane flights. | -
+dominant | The union exerts a dominant influence on the conservative party. | -
+dominate | Don't let that man dominate you. | -
+donate | Tom's decided to donate his body to medical science. | -
+donation | Thank you very much for your generous donation. | -
+doom | Those gloom and doom economists aren't worth their salt. | -
+doubtless | You are doubtless aware of his absence. | -
+draft | Mayuko made a fair copy of the draft. | -
+drag | This looks as though it will drag on and on. | -
+drain | Excess water went down the drain to the sewage. | -
+drainage | Inadequate drainage can lead to flooding. | -
+dramatic | Don't take that dramatic attitude all of a sudden. | -
+drastic | Electing this mayor proved to be a drastic mistake. | -
+drawback | Brilliant people have one major drawback - they don't know how to lose. | -
+dread | He is in constant dread of his father. | -
+dreadful | I had a feeling that something dreadful was happening. | -
+drill | Make a hole in the bone with a drill. | -
+drought | The drought has done great harm to the crops. | -
+dual | Arnold is concerned with cases of dual personality. | -
+dub | Ah, if you can dub it, can I ask for a copy as well? | -
+dubious | Students are expected to stay away from dubious places. | -
+duplicate | He had a duplicate key made from that one. | -
+dwarf | I was a dwarf compared with my hostesses. | -
+dwell | I will not dwell any longer upon this subject. | -
+eagle | The bird was half as large as an eagle. | -
+Easter | Today the church around the world is celebrating Easter. | -
+eccentric | Many scientists have the reputation of being eccentric. | -
+eclipse | An eclipse of the sun is a rare appearance. | -
+ecology | Desert ecology is a new field of study. | -
+economic | Japan ranks among the economic powers of the world. | -
+economical | London was very important for economical and cultural reasons. | -
+economy | Tourism is important to the economy of my country. | -
+edible | Radioactive contamination was detected in spinach and edible chrysanthemum. | -
+effective | Laughing is the most effective antidote to bad temper. | -
+efficiency | He put forward a plan for improving office efficiency. | -
+efficient | There is no denying that she is very efficient. | -
+ego | Failing the exam was a blow to his ego. | -
+eject | Press the small button to eject the CD from the computer. | -
+elaborate | America has an elaborate system of constitutional checks and balances. | -
+elastic | A rubber ball bounces because it is elastic. | -
+electric | This machine is driven by a small electric motor. | -
+electrical | Second-hand electrical equipment always shows signs of use. | -
+electrician | Next week the electrician is coming to fix the wires. | -
+electricity | This power station alone provides several cities with electricity. | -
+electron | There is one electron in a hydrogen atom. | -
+electronic | In recent years electronic computers have become increasingly important. | -
+elegant | He fashioned an elegant pot out of clay. | -
+element | Conformity is an essential element of our homogeneous community. | -
+elementary | We used to play musical chairs in elementary school. | -
+elevate | New truth and knowledge always elevate human life and most usually find practical application. | -
+elicit | We plan to elicit opinions from the public. | -
+eligible | Tom will be eligible for parole in five years. | -
+eliminate | The plumbing has a water softener to eliminate lime. | -
+elite | Fight back against the oppression of the ruling elite. | -
+eloquent | We were deeply impressed by the lecturer's eloquent speech. | -
+embark | He resolved to embark on a once-in-a-lifetime enterprise. | -
+embarrass | Tom just doesn't want me to embarrass him. | -
+embed | I wish I could figure out how to embed a YouTube video. | -
+embody | It is hard to embody one's idea in an action. | -
+emerge | The secret will emerge in due course of time. | -
+emergency | You can always count on him in any emergency. | -
+emotion | He showed no emotion hearing the bad news. | -
+emphasis | We should not place too much emphasis on money. | -
+emphasize | I want to emphasize this point in particular. | -
+empirical | Grammar is an empirical science, not a theoretical one. | -
+employment | Workers are taking a financial beating in the employment crisis. | -
+enclosure | There are many kinds of animals inside this enclosure. | -
+encounter | His encounter with her is enriching his inner life. | -
+encourage | You often encourage me to be good and hardworking. | -
+endeavor | We wish him all success in his future endeavor. | -
+endurance | You need great endurance to run ten thousand meters. | -
+endure | They had to endure great hardship during the war. | -
+energetic | In those days, he was still strong and energetic. | -
+enforce | Those who enforce the law must obey the law. | -
+engage | I have no time to engage in political activity. | -
+engagement | I am very happy to hear about your engagement. | -
+engine | The people there made way for the fire engine. | -
+enhance | Tom regularly feeds his chooks grit to enhance egg production. | -
+enlighten | The ray of wisdom must enlighten new horizons. | -
+enormous | There exists an enormous difference between the two theories. | -
+enrich | Let us enrich ourselves with our mutual differences. | -
+enroll | He was not allowed to enroll in the college. | -
+ensue | Tears ensue, / and wailing, shrill as though her heart would bleed. | -
+entail | The project will entail great expense upon the company. | -
+entertainment | This is a movie which combines education with entertainment. | -
+enthusiasm | He spoke with great enthusiasm of the theatrical performance. | -
+enthusiastic | This book is a result of his enthusiastic research. | -
+entitle | Your passport does not, in itself, entitle you to enter this country. | -
+entity | The small retail outlet is only a front for a much larger entity. | -
+entrepreneur | Scott is an entrepreneur with much spirit of enterprise. | -
+environment | We are influenced both by environment and by heredity. | -
+envisage | Can you envisage Tom working in a garage? | -
+epoch | There have always been fashionable faces and expressions which marked an epoch. | -
+equality | He was in favor of equality for all. | -
+equator | The capital of the state is right on the equator. | -
+equip | He wants to equip his son with a good education. | -
+equivalent | A meter is not quite equivalent to a yard. | -
+erect | Nobody intends to erect a wall. | -
+erosion | Because of erosion, the trail is rocky and deep. | -
+erroneous | He thought he could get away with his erroneous sentence. | -
+erupt | Tom looked like a volcano about to erupt. | -
+escort | I will serve you as an escort. | -
+essence | Extract an essence from the bark of a tree. | -
+essential | Fruits and vegetables are essential to a balanced diet. | -
+establish | We hope to establish a closer relationship between us. | -
+estimate | Try to estimate how much you spent on books. | -
+eternal | Some people believe in eternal life after death. | -
+ethnic | There is a difference between genocide and ethnic cleansing. | -
+evaluate | The teacher had to evaluate all the students. | -
+evidence | It follows from this evidence that she is innocent. | -
+evident | It is evident that he has made a mistake. | -
+evil | The evil spirit was driven away from the house. | -
+evoke | This cuisine is seasoned to evoke the esprit of Paris. | -
+evolution | There is much documented evidence to prove evolution. | -
+exaggerate | It is impossible to exaggerate the importance of education. | -
+exceed | Benefits of course should exceed the costs. | -
+exception | We will make an exception of your case. | -
+exceptional | The distributors are asking for an exceptional margin. | -
+excess | Kindness in excess is too much of a good thing. | -
+excessive | The excessive use of salt should be taboo. | -
+exchange | It is a system of direct exchange of goods. | -
+exclaim | Whenever Tom did poorly, his father would exclaim that it was an embarrassment to the family. | -
+exclude | They decided to exclude him from their circle. | -
+exclusive | Ann is exclusive in her choice of friends. | -
+excursion | If it rains, the excursion will be called off. | -
+execute | I want to execute the plan by all means. | -
+execution | Before their execution, they were tortured savagely for months. | -
+executive | The executive director is a real pushover for looks. | -
+exempt | Israel is not exempt from abiding by international law. | -
+exert | Your sense of humor is beginning to exert itself. | -
+exhaust | Tom needs a new exhaust system for his car. | -
+exhibit | Children exhibit a low tolerance for the frustrations of learning. | -
+exile | No one shall be subjected to arbitrary arrest, detention or exile. | -
+existence | This is how the great empire came into existence. | -
+exotic | The girl has an exotic image of the boy. | -
+expand | The blossoms expand under the influence of the weather. | -
+expansion | Shareholders were concerned about the company's swift expansion overseas. | -
+expedition | We encountered a lot of difficulties on the expedition. | -
+expel | The elders decided to expel him from the village. | -
+expend | According to the budget, she could expend no more on supplies. | -
+expenditure | We should strike a balance between our expenditure and income. | -
+expense | I paid the bill out of my expense account. | -
+expert | He has become expert in hiding his true feeling. | -
+expertise | We have a lot of expertise in this area. | -
+expire | My driver's license will expire next week. | -
+explicit | I gave you explicit instructions not to touch anything. | -
+exploit | Each of us needs to fully exploit his potential. | -
+explore | We need to explore all possible cures for cancer. | -
+expose | We should sometimes expose our bodies to the sun. | -
+exposition | I applied to be an attendant at the exposition. | -
+expression | The teacher wore a harsh expression on his face. | -
+exquisite | The tourists were fascinated with the exquisite scenery. | -
+extensive | The server farm suffered extensive breakage after the earthquake. | -
+extent | It was to a great extent his own fault. | -
+external | The vagina meets the external organs at the vulva. | -
+extinct | Even the human race will become extinct one day. | -
+extinguish | The fireman could not extinguish the flames. | -
+extract | Here is an extract to whet your appetite. | -
+extraordinary | Call the police if you see any extraordinary situation. | -
+extravagant | This diamond ring is too extravagant for me. | -
+extreme | The soup-spoon is always on the extreme right. | -
+fabric | I reached into the pile and felt soft fabric. | -
+fabricate | That she could fabricate writings is certain, because she could write. | -
+facet | A facet of genius is the ability to provoke scandals. | -
+facilitate | Sami's responsibility is to facilitate the investigation. | -
+factor | Honesty was the most important factor in his success. | -
+faculty | He has a faculty for making other people happy. | -
+faith | It was because she had faith in his capabilities. | -
+fake | Most of the snow shown in films is fake. | -
+famine | Because of the famine, the cattle starved to death. | -
+fantastic | It would be fantastic if you could do that. | -
+fantasy | Once in a while, the prophet indulges in fantasy. | -
+fascinate | Blood and violence fascinate them. | -
+fatal | The strong yen was a fatal blow to the company. | -
+fatigue | He was pale with fatigue after his sleepless night. | -
+feasible | That will likely become feasible with future technology. | -
+feast | A feast like this is fit for a king! | -
+feature | The principal feature of the conference is the buffet. | -
+federal | Tom was sentenced to three years in federal prison. | -
+federation | Chechnya is part of the Russian Federation. | -
+feeble | A lonely boy was reading near a feeble fire. | -
+fellowship | He longs for the fellowship of the rich. | -
+feminine | She has a feminine insight into human behavior. | -
+ferry | We had a rough crossing on an old ferry. | -
+fertilizer | Use a fertilizer once a year after blooming. | -
+fiction | The story of the lost prince was a fiction. | -
+figure | A six-figure income is not uncommon for physicians. | -
+finance | More students are interested in finance than in industry. | -
+financial | Costs of financial services are rising in every country. | -
+finite | We cannot have infinite growth on a finite planet. | -
+fitting | Mary is in the fitting room trying on clothes. | -
+fixture | She's a fixture at all the high-society parties. | -
+flank | Use your squad to flank their position here. | -
+flap | Birds flap their wings to fly. | -
+flare | There was a flare-up between local residents and state regulators. | -
+flask | Tom opened a desk drawer and pulled out a flask. | -
+flat | The whole village was laid flat by the earthquake. | -
+flatter | You don't need to flatter your boss. | -
+flaw | I can't find a single flaw in her theory. | -
+flexible | Gymnasts are among the most flexible of all athletes. | -
+fling | Sami was having a fling with his secretary. | -
+flip | Such a policy flip-flop was heavily criticized by his enemies. | -
+float | He was the first man to float in space. | -
+fluctuate | The budget is bound to fluctuate due to the economy. | -
+flush | Those boys are in the first flush of youth. | -
+flutter | The cherry blossoms flutter down whenever the wind blows. | -
+foam | Tom put a foam pad under his sleeping bag. | -
+focus | This chapter will focus on the concepts of geometry. | -
+foil | This threatens to foil our plans. | -
+fold | With great effort she managed to fold one more. | -
+force | The dentist pulled out my decayed tooth by force. | -
+foremost | I told it to my mother first and foremost. | -
+foresee | Nobody can foresee when the war will end. | -
+forge | The smith is working at his forge. | -
+formal | We should write a formal letter to the director. | -
+format | The manager wants the report rewritten using the new format. | -
+formidable | No government can be long secure without formidable opposition. | -
+formula | He had complete mastery over the necessary mathematics formula. | -
+formulate | I cannot coherently formulate words without coffee. | -
+fort | The chief massed his warriors to attack the fort. | -
+forthcoming | Tom wasn't exactly forthcoming with an answer. | -
+forum | I contribute to this forum almost every day. | -
+fossil | I found this incredible fossil rolling in the surf. | -
+foster | They did everything they could to foster good relations. | -
+foul | Mary has been in a foul mood all week. | -
+fraction | He did it in only a fraction of a second. | -
+fracture | The pain of the compound fracture was almost unbearable. | -
+fragile | These fragile items must be insured against all risks. | -
+fragrance | This flower gives off a strong fragrance. | -
+frantic | You did a lot of work in frantic haste. | -
+fraud | Academic fraud is more common than you might think. | -
+frequency | The frequency of crime in the town is high. | -
+frequent | As a child, my daughter had frequent asthma attacks. | -
+friction | So-called trade friction could be avoided some day. | -
+fringe | The job comes with a lot of fringe benefits. | -
+fuel | Millions of trees have been cut down for fuel. | -
+fulfill | Dozens of people encouraged me to fulfill my ambitions. | -
+function | The function of the machine is to save work. | -
+fund | He went abroad to raise fund for the project. | -
+fundamental | This book is fundamental for an understanding of biology. | -
+furious | Tom is probably going to be furious about that. | -
+furnish | It aims to furnish factories and homes with sophisticated robots. | -
+furniture | There was a lot of furniture in the room. | -
+furthermore | They rob, and furthermore cheat each other. | -
+fury | The fury of the storm frightened the children. | -
+fuse | Tom overloaded his power board and blew a fuse. | -
+fusion | Jazz fusion is a combination of rock and jazz. | -
+galaxy | Wormholes allow spaceships to travel throughout the galaxy. | -
+gamble | He loves to gamble but generally loses. | -
+garbage | This plastic garbage bag is free of hazardous chemicals. | -
+garment | I wonder what materials the garment is made of. | -
+gasp | Tom came up for a gasp of air. | -
+gauge | This test will gauge your reading comprehension. | -
+gaze | Her cool gaze made my heart skip a beat. | -
+gear | Want of wit is worse than want of gear. | -
+generalize | In general, people who generalize are imbeciles, but only in general. | -
+generate | Nuclear power is used to generate electricity. | -
+generous | You had better not play on his generous nature. | -
+genetic | This disease is caused by a rare genetic mutation. | -
+genuine | Investors must distinguish between genuine value creation and wishful thinking. | -
+geology | Tom doesn't know the difference between geography and geology. | -
+gigantic | The gigantic tornado plowed its way through the city. | -
+giggle | She has a cute giggle. | -
+given | At last the boy was given up for dead. | -
+glamour | Do you think I can handle all that glamour? | -
+glance | The two buses resemble each other at first glance. | -
+gland | A tumor of the pituitary gland can cause hypopituitarism. | -
+glare | In the end, her glare cowed him into submission. | -
+gleam | We saw the gleam of a distant lighthouse. | -
+glide | Tom watched the skaters glide across the ice. | -
+glitter | The glitter of the sun hurts my eyes. | -
+gloom | When you were a child you feared the gloom. | -
+gloomy | I got gloomy and thought of giving up. | -
+glow | Her cheeks began to glow at his compliments. | -
+gorgeous | She must have been gorgeous when she was young. | -
+gossip | I have no time to engage in gossip. | -
+gown | Mary wore a beautiful evening gown to the party. | -
+gracious | The queen was gracious enough to invite us. | -
+graduate | My sister expects to graduate from college next year. | -
+grain | As usual the peasants are busy scattering grain seeds. | -
+grant | God grant that you come home safe and sound. | -
+graphic | Tom was a graphic designer before he became a teacher. | -
+grave | The boy dug a grave for his dead pet. | -
+graze | The sheep graze the grass in the field. | -
+grease | That politician won't meet you unless you grease his palm. | -
+grief | She tried to conceal her grief at the party. | -
+grieve | I advised him not to grieve over the past. | -
+grim | That evening tea was partaken of in a grim silence. | -
+grin | Tom had a great big grin on his face. | -
+grip | They got into the grip of ignorance and poverty. | -
+groan | I'm tired of hearing you moan and groan. | -
+groove | I am not in the groove today. | -
+gross | The gross national product of our country is the second largest. | -
+guarantee | Some companies guarantee their workers a job for life. | -
+guardian | Never drive faster than your guardian angel can fly. | -
+hamper | Tom tossed his dirty clothes in the hamper. | -
+handbook | This is a good handbook. | -
+handicap | She seems to be laboring under the family handicap. | -
+hardy | Hardy young people like mountaineering. | -
+harmony | The beauty of the music consists of its harmony. | -
+hasty | There is no need to draw a hasty conclusion. | -
+hatch | The hen sits on her eggs until they hatch. | -
+hatred | There is still serious racial hatred against black people. | -
+haul | We're in this for the long haul. | -
+haunt | My past indiscretions are coming back to haunt me. | -
+hawk | The bird was half the size of a hawk. | -
+hazard | A pot belly is an occupational hazard for office workers. | -
+heap | Fan letters lay in a heap on the desk. | -
+heave | This ship is outfitted with a windlass to heave up the anchor. | -
+heel | He squashed the insect with the heel of his foot. | -
+heir | Being an only child, he was the sole heir. | -
+hemisphere | Those animals can be seen in the northern hemisphere. | -
+henceforth | Officers will henceforth wear ties at dinner. | -
+herb | The herb used in that pasta sauce might be parsley. | -
+heritage | This building should be kept as a national heritage. | -
+hesitate | Never hesitate to have time off whenever you want. | -
+hierarchy | Japanese companies emphasize hierarchy. | -
+highlight | The bioluminescent bay was the highlight of our trip. | -
+hike | The hike will take no less than eight hours. | -
+hinder | He didn't come to help, but to hinder us. | -
+hinge | The hinge is broken. | -
+historian | Tom is an art critic and historian. | -
+hitherto | The history of all hitherto existing societies is the history of class struggles. | -
+hoist | Hoist your sail when the wind is fair. | -
+homogeneous | Conformity is an essential element of our homogeneous community. | -
+hop | The galactic military used wormholes to hop around the universe. | -
+hose | Layla put the fire out with a garden hose. | -
+hospitality | I cannot thank you too much for your hospitality. | -
+hostage | Many innocent people were saved from the hostage takers. | -
+hostile | She was aware of their hostile feelings toward her. | -
+hound | Spring over the ground like a hunting hound. | -
+household | Sony is a household name all over the world. | -
+hover | Helicopter parents are parents that hover over their children like helicopters. | -
+howl | His voice was drowned out by the wraith's sudden howl. | -
+huddle | Penguins often huddle together to keep warm. | -
+hug | I want you to give each other a hug. | -
+hum | A melody is not merely something you can hum. | -
+humanity | I feel a great love for all of humanity. | -
+humble | The humble man is getting along with his neighbors. | -
+humidity | You can use a psychrometer to measure relative humidity. | -
+hurl | I hoped you could hurl some lumens into the gloom. | -
+hurricane | The pier took a real beating from the hurricane. | -
+hypothesis | The hypothesis is based on the thorough experiments. | -
+hysterical | Sami was hysterical enough to be sedated. | -
+ideal | Stark inequality is also corrosive to our democratic ideal. | -
+identical | Women are interchangeable instruments for a constantly identical pleasure. | -
+identification | A passport is a valid form of identification. | -
+identify | The elderly women can identify with her life experience. | -
+ideology | The crisis could start a revolution in economic ideology. | -
+idiom | "Time is gold" a true idiom. | -
+idiot | This idiot is out of your life for ever. | -
+ignite | I ignite the stove. | -
+ignore | Tom was trying to ignore what was going on. | -
+illegal | The minister was in a fix over illegal dealings. | -
+illuminate | I use a flashlight to illuminate dark areas. | -
+illusion | He had the illusion that he was a genius. | -
+illustrate | Everyone can feed the database to illustrate new vocabulary. | -
+imaginary | All the events described in this story are imaginary. | -
+imaginative | You have an imaginative, artistic and pretty romantic personality. | -
+imitate | If something is fashionable, everyone wants to imitate it. | -
+imitation | On examination the jewel proved to be an imitation. | -
+immerse | You need to immerse yourself into their culture to master their language. | -
+immigrant | She married a fellow immigrant and had a son. | -
+immune | Tom is likely to be immune to that disease. | -
+impact | The storm had a bad impact on the crops. | -
+impair | Hormones impair one's judgment. | -
+impart | He wants to impart his wisdom to you. | -
+impatient | Students are impatient for the summer holidays to come. | -
+imperative | It is imperative for you to act at once. | -
+imperial | In the imperial measurement system, four quarts equals one gallon. | -
+impetus | He did everything with great impetus. | -
+implement | That tractor implement makes burrows in the field. | -
+implication | Her implication in the crime was obvious. | -
+implicit | We had an implicit agreement that we would support each other. | -
+imply | I'm not trying to imply anything of the kind. | -
+impose | We should not impose our opinions on other people. | -
+impulse | He told his wife not to buy on impulse. | -
+incentive | We lack an incentive for pursuing the eastern market. | -
+incidence | According to this figure, the reflection angle equals the incidence angle. | -
+incident | This was third school shooting incident in six months. | -
+incidentally | Incidentally, I have to tell you something. | -
+incline | Say hello to my incline treadmill. | -
+inclusive | The atmosphere in that workplace is not very inclusive. | -
+incredible | This huge dam is an incredible feat of construction. | -
+incur | You do not want to incur the wrath of God. | -
+indefinite | The union went out on a strike for an indefinite period. | -
+independence | The colony declared independence and became a republic. | -
+indicative | Macedonian has four verbal moods: indicative, conditional, imperative, and renarrative. | -
+indifferent | He is indifferent to the suffering of others. | -
+indignant | I am indignant about the way he treated me. | -
+indignation | I could barely contain my indignation at her impudence. | -
+indispensable | Sleep and good food are indispensable to good health. | -
+individual | The old doctor gave individual attention to each patient. | -
+induce | Nothing could induce him to change his mind. | -
+indulge | Father was generous enough to indulge my every whim. | -
+industrial | Local finance are bankrolling the industrial promotion program. | -
+inertia | Never underestimate the power of inertia. | -
+inevitable | It is inevitable that some changes will take place. | -
+infant | The infant has been exposed to radioactive rays. | -
+infectious | The infectious case was isolated from other patients. | -
+inferior | This machine is inferior to that one in durability. | -
+infinite | The number of stars in the sky is infinite. | -
+inflict | You should not inflict any injury on others on any account. | -
+ingenious | The ingenious boy won a prize for his invention. | -
+ingredient | Clay is the essential ingredient in making pottery. | -
+inhabit | Those tribes inhabit the desert all year round. | -
+inhabitant | Sami is the only inhabitant of the island. | -
+inherent | The instinct for survival is inherent in every living thing. | -
+inherit | Tom wishes for his son to inherit his estate. | -
+inhibit | He noticed that this drug seemed to inhibit bacterial growth. | -
+initial | The initial symptoms of the disease are fever and sore throat. | -
+initiate | To initiate the quest, first go to the tavern and talk to the quest-giver. | -
+initiative | The city took the initiative in the pollution suit. | -
+inject | She was trying to inject some fun into the grim proceedings. | -
+inland | Almost every night clouds develop over the ocean and move inland. | -
+innovation | Open source is the engine that drives technological innovation. | -
+innumerable | I have tried innumerable times to contact him. | -
+input | The input method also works with this version. | -
+insane | Society is an insane asylum run by the inmates. | -
+insect | You should try not to scratch your insect bites. | -
+insert | Please insert a word or phrase. | -
+insight | This poem calls for great insight from the reader. | -
+insist | You insist upon our taking that course of action. | -
+inspiration | They had good flashes of inspiration about this plan. | -
+inspire | Asian religions inspire him to create splendid sculptures. | -
+install | The man tried to install his own antenna. | -
+installment | I'll be all paid up after one more installment. | -
+instance | Birds, for instance, have a special protective device. | -
+instantaneous | Lightning is nearly instantaneous. | -
+instinct | There is no instinct like that of the heart. | -
+institute | Sami teaches translation techniques at a renowned translation institute. | -
+institution | Tom was committed to an institution for the insane. | -
+instruct | Please instruct the patient to visit a clinician. | -
+instrument | Tom is playing a string instrument of some sort. | -
+instrumental | I like vocal music better than instrumental music. | -
+insulate | You'll end up getting an electric shock if you don't insulate that wire. | -
+insurance | He claimed on the insurance after his car accident. | -
+intact | The buildings were still intact after the flood. | -
+integral | Death is an integral part of life. | -
+integrity | He has a fabulous reputation for his high integrity. | -
+intellect | Health and intellect are the two blessings of life. | -
+intellectual | Esperanto helped me broaden my intellectual and cultural horizons. | -
+intelligent | Jack is the most intelligent boy in the class. | -
+intelligible | The meaning of the words is intelligible. | -
+intense | Due to the intense sunlight, his back was sunburnt. | -
+intensify | It is unavoidable that the fighting will intensify. | -
+intensive | Extensive reading is as important as intensive reading. | -
+intent | The child did not intent to break your arm. | -
+interact | Tom seems to be unable to interact normally with other people. | -
+interaction | Social interaction is the very foundation of social life. | -
+intercourse | They lost some symbols of social intercourse. | -
+interfere | He has no intention to interfere with your business. | -
+interim | Tom has been named interim head coach. | -
+intermittent | Tom is doing intermittent fasting to lose weight. | -
+internal | We dissected a frog to examine its internal organs. | -
+interpret | Only an artist can interpret the meaning of life. | -
+interrupt | I figured it was better not to interrupt you. | -
+intersection | Please slow down when getting close to the intersection. | -
+intervene | Maybe the village elders will intervene to reconcile them. | -
+intimate | The two boys became intimate friends at the camp. | -
+intimidate | Some guy was trying to intimidate me. | -
+intricate | I can see some intricate patterns in the picture. | -
+intrigue | He watches for an opportunity to intrigue against his rival. | -
+intrinsic | This celebration is an intrinsic part of the culture of our country. | -
+intuition | We put too much faith in our intuition. | -
+invalid | From tomorrow this email address will be invalid. | -
+invaluable | The dictionary is an invaluable tool for learning languages. | -
+invariably | Mary invariably brought more food than she could eat. | -
+inventory | Tom rearranged the items in his inventory to make more space. | -
+invert | It might help if you invert the colours. | -
+invest | My recommendation is that you invest in government bonds. | -
+investigate | You should investigate the fact from a medical viewpoint. | -
+invisible | Intellect is invisible to the man who has none. | -
+involve | I asked you not to involve me in this. | -
+irony | There was a touch of irony in his speech. | -
+irrespective | I must go there irrespective of what you think. | -
+irrigation | Sami's body was found in the irrigation canal. | -
+irritate | The fact seemed to irritate her husband. | -
+isle | They were marooned on a desert isle. | -
+isolate | Maybe you can help us isolate the problem. | -
+issue | Here the authors touch on the central methodological issue. | -
+item | The first item he bought was an alarm clock. | -
+ivory | Do you have any ivory crepe blouses in medium? | -
+jeopardize | If you ignore the past, you jeopardize the future. | -
+jerk | She dumped him because she thought he was a jerk. | -
+jog | I make it a rule to jog every morning. | -
+junction | The restaurant stands at the junction of two superhighways. | -
+junk | Tom never used to eat so much junk food. | -
+jury | She stood in the court before judge and jury. | -
+keen | I am not keen on this kind of music. | -
+kidnap | Sami tried to kidnap a mentally challenged woman. | -
+kidney | Is she passing kidney stones in her urine? | -
+kit | I have a first aid kit in my car. | -
+knit | Layla grew up in a small close-knit town. | -
+knob | Tom turned the knob and pushed the door open. | -
+label | It says on the label to take two tablets. | -
+lace | The world seen through the lace curtain was dark. | -
+lame | That's a lame excuse for giving up the work. | -
+lane | It is a long lane that has no turning. | -
+lash | Don't lash out at me just because my brother treated you badly. | -
+latent | There are many latent gays among rampant homophobes. | -
+latitude | Please give me some latitude this time. | -
+layer | This morning there was a thick layer of frost. | -
+layman | Much legal language is obscure to a layman. | -
+leaflet | This leaflet contains necessary information. | -
+lease | Is there a clause in the lease regarding that? | -
+leather | The leather jacket has worn out at the elbows. | -
+legal | The lawyer recommended that his client take legal action. | -
+legend | The last part of the legend was added later. | -
+legislation | Existing legislation does not take diversity of races into account. | -
+legitimate | The state has a monopoly on legitimate violence. | -
+leisure | A friend to everybody is a friend to leisure. | -
+lens | Tom found his contact lens near the table. | -
+lever | They lifted the rock by means of a lever. | -
+levy | The airport improvement levy seems higher than last year. | -
+liability | He denies any liability for the damage caused. | -
+liable | Those loved by many are liable to untimely death. | -
+liberal | The publishers of that newspaper are very liberal. | -
+lieutenant | I was a second lieutenant in the special forces. | -
+likelihood | There is no likelihood of his getting well soon. | -
+limb | I don't want to go out on a limb. | -
+limitation | Rightness of limitation is essential for growth of reality. | -
+limp | Tom has always walked with a slight limp. | -
+linear | This system of linear equations has infinitely many solutions. | -
+linen | He gave me a half dozen linen handkerchiefs. | -
+liner | A luxury liner arrived in the harbor. | -
+linger | Fadil didn't linger in the area. | -
+literacy | This organisation promotes literacy in rural areas. | -
+literal | He explained the literal meaning of the phrase. | -
+literary | Reading literary criticism is very helpful to understanding literature. | -
+literature | I am not as interested in literature as you. | -
+litter | The public is requested not to litter in these woods. | -
+locality | The locality does not count for much in Japan. | -
+locomotive | The locomotive is at the end of the train. | -
+lofty | That's to me like a flower on lofty heights. | -
+logical | Esperanto is the most logical language in the world. | -
+longevity | The secret of longevity is to choose your parents carefully. | -
+loom | Many good grades will loom on the horizon. | -
+lounge | We ate a quick lunch in a coffee lounge. | -
+loyal | Tom is a famous restaurateur with a loyal following. | -
+loyalty | It all comes down to a question of loyalty. | -
+lubricate | Will you lubricate the car? | -
+luggage | We loaded a lot of luggage into the car. | -
+luminous | They all agreed that it was a huge creature, luminous, ghastly, and spectral. | -
+lunar | A lunar month is shorter than a calendar month. | -
+lure | I could not resist the lure of great profits. | -
+luxury | She was brought up in the lap of luxury. | -
+machinery | The factory decided to do away with the old machinery. | -
+magistrate | Obscenity is whatever happens to shock some elderly and ignorant magistrate. | -
+magnet | The students used a magnet in science class. | -
+magnetic | So there is a magnetic field around earth. | -
+magnificent | This hotel has a magnificent view of the sea. | -
+magnify | You can use a magnifying glass to magnify small text. | -
+magnitude | You need to understand the magnitude of the problem. | -
+maintain | We should make every effort to maintain world peace. | -
+majesty | He carries himself with the majesty of a king. | -
+majority | The majority of the committee voted against the bill. | -
+mall | At the car wash next to the shopping mall. | -
+management | A successful business is built on careful financial management. | -
+maneuver | Birds change the shape of their wings to turn and maneuver. | -
+manifest | He doesn't manifest much desire to win the game. | -
+manipulate | Tom is just trying to manipulate you. | -
+mansion | Sami had a small movie theater in his mansion. | -
+manual | Mechanical power took the place of manual labor. | -
+manufacture | The date of manufacture is shown on the lid. | -
+manufacturer | Only use attachments or accessories specified by the manufacturer. | -
+manuscript | I have been writing this manuscript for a year. | -
+marble | They are chiseling a statue out of marble. | -
+margin | We left a margin for error in our estimates. | -
+marginal | There is only a marginal difference between the two. | -
+marsh | Lots of herons live in the marsh. | -
+marshal | I will marshal a fair amount of scientific data to support my argument. | -
+masculine | What examples of behaviour would you consider typically masculine? | -
+mask | A friend of mine made it with a mask. | -
+mass | The mass of men lead lives of quiet desperation. | -
+massacre | The general ordered the massacre of all war prisoners. | -
+massive | There was a massive search to find any survivors. | -
+masterpiece | The millionaire intended to purchase the masterpiece regardless of cost. | -
+mature | It takes two years for the butterfly to mature. | -
+maximum | The bus can carry a maximum of forty people. | -
+meadow | Your sentences were like a green meadow in winter. | -
+mechanical | I want my son to become a mechanical engineer. | -
+mediate | Interpreters mediate between different cultures. | -
+medieval | I was deeply impressed with the medieval music. | -
+medium | Television is a very important medium for giving information. | -
+melody | The song had a melody that went like this. | -
+melt | The snow will melt when the sun comes out. | -
+memorize | It took me two hours to memorize this sentence. | -
+menace | This kind of bomb is a serious menace to mankind. | -
+mental | The people of your country have no mental discipline. | -
+mercury | A significant quantity of mercury was found in the mackerel. | -
+mere | The mere sight of a snake makes her sick. | -
+merely | I merely came to inform you of the fact. | -
+merge | He was given a tip three weeks ago that two companies would merge. | -
+merit | Charms strike the sight, but merit wins the soul. | -
+messenger | A messenger reports that the enemy is approaching. | -
+metallic | Layla could smell that metallic iron smell of blood. | -
+metropolitan | He centered his business on the metropolitan area. | -
+midst | He fainted in the midst of his speech. | -
+migrant | There are many migrant farm-worker children at our school. | -
+migrate | Some birds migrate to warmer regions in the winter. | -
+mild | Fadil seemed to be a very mild-mannered man. | -
+militant | The man was said to be part of a rogue militant group. | -
+military | There seem to be dangerous developments in the military. | -
+millionaire | Everyone who worked on that project became a millionaire. | -
+mingle | He doesn't mingle with the villagers. | -
+miniature | He stared at the faithful miniature of the dinosaur. | -
+minimal | I think that the economic impact will be minimal. | -
+minimize | I want to minimize the chances of another accident. | -
+minimum | We have to reduce the cost to a minimum. | -
+minority | The chairman should take the minority opinion into account. | -
+misery | The accompaniments of the war are misery and sorrow. | -
+misfortune | The misfortune of the ants makes the elephants laugh. | -
+mission | Tom traveled back in time to perform a mission. | -
+missionary | The missionary was eaten by cannibals. | -
+mistress | He met his mistress during a country escapade. | -
+moan | The pain is always milder than the moan. | -
+mob | The angry mob overturned cars and smashed storefront windows. | -
+mobile | I always said that your mobile never worked well. | -
+mobilize | Sami was working non-stop to mobilize a search team. | -
+mock | The future pilot is trained in a mock cockpit. | -
+modest | They would think the person is modest or lazy. | -
+modify | We want to modify the regulations of our school. | -
+module | The module has only countably many direct summands up to isomorphism. | -
+molecule | Each molecule in our body has a unique shape. | -
+momentum | As the days passed, our campaign grew in momentum. | -
+monetary | Interest rates will rise due to monetary tightening. | -
+monitor | A satellite was launched into orbit to monitor melting glaciers. | -
+monopoly | Our store has a monopoly on this item. | -
+monster | A monster was believed to live in the cave. | -
+moral | Mary renounced her moral values and became a nihilist. | -
+morality | Governments should not be in the business of legislating morality. | -
+moreover | The bag was big, and moreover, it was heavy. | -
+mortal | The body is mortal, but the soul is immortal. | -
+mortgage | The bank holds a mortgage on his building. | -
+motel | I checked into a motel and went right to sleep. | -
+motivate | I go to the store to motivate my mom. | -
+motive | Now we are better able to understand their motive. | -
+mourn | Blessed are those who mourn, for they will be comforted. | -
+muddy | That path is apt to be muddy after rain. | -
+multiple | One sentence may have multiple meanings in one language. | -
+multiply | This new investment will multiply our profit. | -
+multitude | They are faced with a multitude of stresses. | -
+municipal | The municipal council all but ignored the gravity of the pollution. | -
+murmur | There was a murmur when she entered the room. | -
+muscular | My muscular strength has weakened from lack of exercise. | -
+mute | Deaf-mute people can use sign language to communicate. | -
+mutual | To maintain a friendship, there must be mutual affection. | -
+myth | What he had said proved to be a myth. | -
+naive | The naive man was utterly embarrassed in her presence. | -
+napkin | Tom was arrested for stealing a napkin at a restaurant. | -
+narrative | It was his narrative that bored me to death. | -
+nasty | He gave me a nasty punch to the face. | -
+navigation | Due to limited visibility, navigation may be difficult. | -
+necessitate | School closures due to inclement weather will necessitate extending the school year by three days. | -
+negative | Divorce tends to be associated with a negative image. | -
+neglect | It is silly of you to neglect your studies. | -
+negligible | The damage from the flood was negligible. | -
+negotiate | They wanted to negotiate the contract on equal terms. | -
+neutral | A neutral work is the work of a coward. | -
+nickel | I found a nickel in between the couch cushions. | -
+nickname | My real name has nothing to do with my nickname. | -
+nominal | Price increases explain the difference between the real and nominal growth rates. | -
+nominate | Nominate now the champion of gender-balanced business. | -
+nonetheless | You may not believe it, but it is nonetheless true. | -
+norm | Cloning of supermen in the military became the norm. | -
+notable | The area is notable for its scenery and wildlife. | -
+notify | Tom is going to notify us if that happens. | -
+notion | He has a notion that life is a voyage. | -
+notorious | Sharks are notorious for having a thirst for blood. | -
+notwithstanding | She accepted our offer notwithstanding. | -
+nourish | The mother used her own milk to nourish the baby. | -
+novelty | Some people prefer conformity, while others seek novelty. | -
+numerical | Pantone classifies thousands of colors with unique numerical identifiers. | -
+numerous | There are numerous hypotheses that may explain this phenomenon. | -
+nurture | Deep inside your heart, nurture benevolence for everything that exists! | -
+nutrition | Information about nutrition is available on most packaged foods. | -
+oak | The lovers engraved the oak tree with their initials. | -
+oath | I remind you that you are still under oath. | -
+obedient | The boy is obedient to his parents. | -
+object | The surface of the peculiar object is fairly rough. | -
+objection | He brought forward a strong objection to my proposal. | -
+objective | You seem to have lost sight of original objective. | -
+obligation | Every player is under obligation to keep the rules. | -
+obscene | His obscene remarks will be expunged from the record. | -
+obscure | The cause of the accident is still obscure. | -
+obstacle | She has the wonderful capability to overcome any obstacle. | -
+obtain | The women led the movement to obtain female suffrage. | -
+occasional | He doesn't travel much apart from occasional business trips. | -
+occupation | He is engaged in an occupation of his own choice. | -
+occupy | Sami was trying to occupy himself on his phone. | -
+occur | There is no telling when an earthquake will occur. | -
+odor | The odor of dirty socks makes me gag. | -
+offense | Such a deed is an offense against the law. | -
+offensive | They went on the offensive in the first half. | -
+offset | The conservative character of the seating furniture is offset by the brightly coloured accessories. | -
+offspring | These legends should be handed down to our offspring. | -
+olive | Better to extend an olive branch than launch a missile. | -
+opaque | You don't know what that small opaque bottle contains. | -
+opponent | He does not let the opponent come near him. | -
+oppose | It is courageous of him to oppose his boss. | -
+oppress | You cannot oppress the people who are not afraid anymore. | -
+optical | My laptop doesn't have an optical disk drive. | -
+optimism | There is considerable optimism that the economy will improve. | -
+optimistic | I must admit that things are looking quite optimistic. | -
+optimum | Finding the optimum for a numerical function can be an important challenge. | -
+option | Elliptical bicycles are a good option for exercising indoors. | -
+orbit | The spaceship is out of orbit around the moon. | -
+orchestra | The conductor of this orchestra is a fine musician. | -
+ore | Treat the men well and the ore will come. | -
+orient | He was interested in the mysteries of the Orient. | -
+oriental | They said that he was a talkative, noisy Oriental. | -
+orientation | Children are quick to gain orientation to new circumstances. | -
+origin | There are many theories about the origin of life. | -
+original | The movie is not so interesting as the original. | -
+originate | I must know where these quotations originate. | -
+ornament | Friends who pay a visit are an ornament to the home. | -
+orthodox | Outside the mainstream of orthodox Judaism, apocalypticism was more successful with certain movements. | -
+outbreak | The viral outbreak occurred in the northern sector. | -
+outfit | That outfit is running a fly-by-night operation. | -
+outline | He gave me a brief outline of the plan. | -
+output | Last year's output of coal fell short of the standard. | -
+outrage | What he did was an outrage. | -
+outset | The meeting was held as intended at the outset. | -
+outward | One cannot judge people only by their outward appearances. | -
+overcome | I must pull myself together to overcome this incident. | -
+overflow | Out of the overflow of the heart, the mouth speaks. | -
+overhead | A bird in hand is safer than one overhead. | -
+overhear | Tom kept his voice low so nobody could overhear. | -
+overlap | When inserting the budwood into the root stock, make the cambium layers overlap. | -
+overlook | You may as well overlook his sins and forgive him. | -
+overpass | He was thrown off the overpass onto the road below. | -
+overt | Racism today isn't so overt. | -
+overthrow | They conspire to overthrow the oppressive government. | -
+overturn | Sami launched a campaign to overturn his conviction. | -
+overwhelm | I didn't mean to overwhelm you. | -
+overwhelming | The bill was passed by an overwhelming majority. | -
+owe | You owe it to yourself to take a vacation. | -
+owl | An owl sleeps by day and hunts by night. | -
+oxide | Nitrous oxide stopped being used as an anaesthetic a long time ago. | -
+oxygen | The air we breathe consists of oxygen and nitrogen. | -
+ozone | Without the ozone layer, we would be in danger. | -
+package | Tom wrapped the package and tied it with strings. | -
+pact | We made a pact that we wouldn't abandon one another. | -
+pamphlet | Please look at the pamphlet for the details. | -
+panic | The panic spread through the district in an instant. | -
+paperback | Unsold paperback books often have their covers torn off. | -
+paradise | Now we are afraid of the paradise we created. | -
+paradox | The paradox of sport is that it bonds as it divides. | -
+paragraph | Memorize this paragraph until you can say it fluently. | -
+parallel | Art is a harmony that runs parallel to nature. | -
+paralyze | A vampire can paralyze people just by looking at them. | -
+parameter | Check the parameter list. | -
+parasite | Tom ate a salad contaminated with the cyclospora parasite. | -
+partial | That teacher tends to be partial to female students. | -
+participant | He was a neutral participant at the discussion. | -
+partition | This partition separates the two rooms. | -
+passion | To share one's passion is to live it fully. | -
+passive | Observation is a passive science, experimentation an active science. | -
+pastime | My favorite pastime is strolling along the shore. | -
+pastry | The prices in this pastry shop are very high. | -
+pasture | There are a lot of sheep in the pasture. | -
+patent | A patent right is an important property right. | -
+pathetic | The education in that institute is simply pathetic. | -
+patriot | He was a true patriot and an able diplomat. | -
+patriotic | Americans descend from immigrants, and they are very patriotic. | -
+patrol | The patrol cars cover the whole of the area. | -
+patron | He's been a patron of this store for many years. | -
+pattern | The colors of the pattern are very ordinary. | -
+peak | The morning rush is at its peak now. | -
+pearl | The jeweler mounted a big pearl in the brooch. | -
+peculiar | There seems to be something peculiar about the boy. | -
+pedal | I got a new foot pedal for my guitar. | -
+pedestrian | This cross street is busy with pedestrian traffic. | -
+peel | The paper was beginning to peel off the walls. | -
+peg | It is difficult to peg the direction of interest deregulation. | -
+penalty | The death penalty was done away with last year. | -
+pendulum | He reached into the case and stopped the pendulum. | -
+penguin | A penguin is a bird that cannot fly. | -
+peninsula | A humid climate is characteristic of the peninsula. | -
+perception | The simple perception of natural forms is a delight. | -
+perfection | Actually his work has reached the acme of perfection. | -
+performance | The audience was carried away by his touching performance. | -
+perfume | The room was pervaded with the scent of perfume. | -
+periodic | He learnt the periodic table by heart just for fun. | -
+periodical | The periodical costs less than the book. | -
+perish | Without lies truth would perish of despair and boredom. | -
+permanent | I hope their relationship will blossom into something permanent. | -
+permeate | The world of dreams is a set of stages where virtual realities permeate one another. | -
+permissible | Is it ever morally permissible to lie? | -
+perpetual | Tom thinks he has invented a perpetual motion machine. | -
+persist | The anthropologist says odd customs do persist in the region. | -
+persistent | Mary was subjected to persistent bullying and harassment at work. | -
+perspective | The picture looks strange because it has no perspective. | -
+persuasion | Crude persuasion is to persistently egg someone on. | -
+pessimistic | He is extremely pessimistic and has no aspirations. | -
+pest | This farmer relies on beneficial insects for pest control. | -
+petition | I addressed a petition to the mayor. | -
+petty | We shouldn't be imprisoning people for such petty crimes. | -
+phase | We are entering a new phase in the war. | -
+phenomenon | There are numerous hypotheses that may explain this phenomenon. | -
+pirate | The pirate was observing the sea with his monocular. | -
+pistol | Never trust a woman with a pistol in hand. | -
+pitch | This is a good place to pitch a tent. | -
+plague | More often than not, famine is accompanied by plague. | -
+planet | Neptune is the eighth planet of the solar system. | -
+plaster | He saw a small plaster on her left knee. | -
+plateau | It's pleasant to take a walk on the plateau. | -
+plausible | This thing seems very plausible to me. | -
+plea | Sami took a plea deal to have charges reduced. | -
+plead | I plead you to tell me the truth. | -
+pledge | Unity, justice and freedom are the pledge of fortune. | -
+plunge | She tends to plunge into new challenges head first. | -
+poetry | Learning poetry is a good discipline for the memory. | -
+poisonous | People used to think that the tomato was poisonous. | -
+poke | I bought a pig in a poke yesterday. | -
+polar | By night, polar bears use stars as their compass. | -
+pole | Scott was the first man to reach the pole. | -
+polish | He only likes Polish girls with blue-green eyes. | -
+ponder | Let's ponder that for a moment. | -
+pope | Tom asked for a private audience with the Pope. | -
+porch | They waited on the porch until it stopped raining. | -
+pore | A possible explanation would be the formation of pore-like structures. | -
+portray | In this film they both portray notorious gang leaders. | -
+pose | When you pose a question, you expect an answer. | -
+positive | She shows a very positive attitude to her work. | -
+possess | Happiness does not consist of how much you possess. | -
+posture | Proper posture is necessary to maintain good health. | -
+potential | I discerned the potential of great things in him. | -
+poverty | The whole nation is waging a war against poverty. | -
+practicable | The new plan was accounted practicable. | -
+preach | They do not preach by name or designation. | -
+precede | In Asia men usually precede women when walking. | -
+precedent | There is no precedent for such a case. | -
+precious | There is no treasure more precious than a child. | -
+precise | He gave me precise instructions to do the job. | -
+predecessor | We like the present headmaster better than his predecessor. | -
+predict | It is not always best to predict the future. | -
+preferable | Bad news is preferable to an absence of information. | -
+preference | Have you got any preference between beef and lamb? | -
+prejudice | Ignorance is the source of many forms of prejudice. | -
+preliminary | Before we begin, a number of preliminary remarks are in order. | -
+premature | It is premature to put the plan into practice now. | -
+premier | The Premier subscribed his name to the charter. | -
+premise | I don't agree with the premise of your argument. | -
+premium | I got a premium for subscribing to the magazine. | -
+prescription | Let me write you a prescription for some medicine. | -
+presentation | Tom was asked to prepare a ten-minute presentation. | -
+preserve | Doctors and nurses must preserve life at all costs. | -
+preside | Tom offered to preside at the meeting. | -
+pressure | Blood pressure is important as a barometer of health. | -
+prestige | The problem affects the prestige of our school. | -
+presumably | Tom will buy a new pair of glasses, presumably. | -
+presume | I presume that he has paid the money back. | -
+pretext | He did not come on the pretext of sickness. | -
+prevail | We must prevail against our rivals by all means. | -
+prevalent | Plastic is the most prevalent type of marine debris. | -
+preview | There was a special sneak preview last night. | -
+previous | I had lost a camera in the previous day. | -
+prey | Some large birds prey upon small birds and animals. | -
+priest | The priest blessed the marriage of the happy couple. | -
+primarily | This dictionary is primarily intended for high school students. | -
+primary | Electronic news media is our primary source of information. | -
+prime | The prime minister appoints the members of his cabinet. | -
+primitive | His wooden instruments were primitive even for his time. | -
+principal | The students gathered at the call of the principal. | -
+principle | Esperanto speakers are in principle still at least bilingual. | -
+priority | Her conditions for choosing a marriage partner took priority. | -
+privacy | Please take a moment to read our privacy policy. | -
+privilege | We give foreign tourists the privilege of tax exemption. | -
+probability | In all probability, the money will not be paid. | -
+probe | Investigators are running a probe into what caused the crash. | -
+procedure | Endoscopy is a medical procedure that uses an endoscope. | -
+proceedings | One of the visitors cried out to obstruct the proceedings. | -
+process | The advancement of modern medicine was a long process. | -
+proclaim | His manners proclaim him a gentleman. | -
+productive | All-nighters are never as productive as they seem. | -
+productivity | The president instructed the employees to improve their productivity. | -
+profess | Fadil wrote Layla a poem to profess his love. | -
+profession | The medical profession keeps handing out warnings about smoking. | -
+professional | His karaoke voice would put a professional to shame. | -
+proficiency | He has increased his proficiency in English greatly. | -
+profitable | Money lending is a profitable business in this country. | -
+profound | The tone of dogmatism is inspired by profound ignorance. | -
+progressive | The grammatical form employed here is the present progressive. | -
+prohibit | Shame can limit what the law does not prohibit. | -
+project | We insist that this project be carried out immediately. | -
+prolong | Gooseberries can prolong your life. | -
+prominent | The tower occupied a prominent spot on the ridge. | -
+promising | Let me introduce a promising young writer to you. | -
+promote | The government has taken measures to promote domestic industry. | -
+prone | People who are prone to aggression can be dangerous. | -
+proof | The proof is trivial and left to the reader. | -
+propaganda | Tom realized that almost all information is opinioned or propaganda. | -
+propagate | Humans are the vehicles that genes use to propagate themselves. | -
+property | National honor is national property of the highest value. | -
+prophet | No man is a prophet in his own land. | -
+proposition | My friend came to me with a business proposition. | -
+prose | The prose of everyday life can be very sobering. | -
+prosecute | There are lots of signs warning that they prosecute shoplifters. | -
+prospect | I am excited at the prospect of seeing her. | -
+prospective | The company invited their prospective customers to the party. | -
+prosperous | It is my burning ambition to make you prosperous. | -
+protein | Tom is on a low-fat, high-protein diet. | -
+protest | Ever louder voices of protest drowned out his speech. | -
+prototype | This design is too inefficient to prototype. | -
+provided | We provided the flood victims with food and clothing. | -
+provision | There was a provision in his will for his mistress. | -
+provocative | After seeing her provocative body, he became obsessed with her. | -
+provoke | A facet of genius is the ability to provoke scandals. | -
+proximity | The big change is the proximity to death. | -
+prune | Your vagina is not going to shrivel up like a prune. | -
+psychiatrist | Tom sees a psychiatrist once or twice a month. | -
+psychological | This psychological study investigates the cognitive factors of memory. | -
+pudding | I had some custard pudding for an afternoon snack. | -
+pumpkin | The little bumpkin bought a big pumpkin. | -
+purchase | I had to borrow money to purchase the car. | -
+purify | Iodine is used to purify water. | -
+purity | The whiteness of the lily is a symbol of purity. | -
+pursue | I plan to pursue a career in international finance. | -
+pursuit | He was interested in only the pursuit of wealth. | -
+quantify | Can you quantify happiness? | -
+quantitative | Quantitative clinical data follow a wide range of distributions. | -
+quart | Two pints are equal to a quart. | -
+quarterly | This magazine is published bimonthly, and that one is published quarterly. | -
+quartz | Tom believes that these quartz crystals have healing powers. | -
+queer | He had a queer expression on his face. | -
+quench | I had a glass of beer to quench my thirst. | -
+quest | They explored the desert in quest of buried treasure. | -
+questionnaire | Please fill out this questionnaire and send it to us. | -
+quiver | In mathematics, a quiver is a directed graph. | -
+quota | We almost broke our necks trying to meet the quota. | -
+racial | We shall continue our efforts to eradicate racial discrimination. | -
+racket | My washing machine makes one hell of a racket. | -
+radiant | Her face was radiant with happiness. | -
+radiate | Your red cheeks radiate innocence. | -
+radical | The government watched the activities of radical groups carefully. | -
+radioactive | Bananas are slightly radioactive due to their potassium content. | -
+radius | Find the radius of the excircle of the triangle. | -
+random | The subjects for the experiment were chosen at random. | -
+rank | Taxis stood in a rank in front of the station. | -
+rap | He gave a rap on the door. | -
+rape | Sami has worked with a lot of rape victims. | -
+rarely | English people rarely talk to strangers in the train. | -
+rash | I found a very good drug for nettle rash. | -
+rating | The thought of rating people by attractiveness does not seem fair to me. | -
+rational | It seemed like the only rational thing to do. | -
+reaction | Observe his facial reaction when we mention a price. | -
+readily | The noted diplomat readily participated in the committee. | -
+realistic | A long discussion boiled down to a realistic conclusion. | -
+reap | We will reap rich rewards later on in life. | -
+reassure | Tom tried to reassure his wife. | -
+rebel | The rebel was ultimately captured and confined to jail. | -
+rebellion | The speaker tried to incite the people to rebellion. | -
+recall | I recall less and less of my childhood. | -
+recede | My memory of her has begun to recede. | -
+receipt | This is just to confirm receipt of your letter. | -
+reception | He introduced me to his relatives at the reception. | -
+recession | The recession has put the crunch on wage laborers. | -
+recipe | The ingredients for this recipe are a little expensive. | -
+recipient | I was the recipient of a large settlement. | -
+reciprocal | The reciprocal of one-half is two. | -
+recite | Tomorrow, we are to recite a poem at school. | -
+reckless | The knight is not so much brave as reckless. | -
+reckon | How much do you reckon this carriage would cost? | -
+reclaim | Some day man will reclaim the desert for agriculture. | -
+recognition | I was surprised at her immediate recognition of me. | -
+recognize | I recognize that what he says is the truth. | -
+reconcile | I asked him to reconcile them with each other. | -
+reconciliation | Any attempt at reconciliation was nipped in the bud. | -
+recover | Tom may never recover the use of his legs. | -
+recovery | I succeeded in the recovery of the stolen wallet. | -
+recreation | Skiing is a good form of recreation. | -
+recruit | The papers found lots of monkey business when they investigated the Recruit scandal. | -
+rectangular | A polar bear is a rectangular bear after a coordinate transform. | -
+rectify | Sami had enough time to rectify things. | -
+recur | Next year we'll recur to this issue. | -
+recycle | There is a big movement today to recycle trash. | -
+redundant | Soldiers currently in theatre will not be made redundant. | -
+reel | The jig, reel and hornpipe are the most popular Irish dances. | -
+referee | The captain appealed to the referee against the decision. | -
+reference | This reference book is of benefit to you all. | -
+reflect | I need a little time to reflect upon it. | -
+reform | The tax reform will not touch the banking industry. | -
+refrain | The soldier really could not refrain from kissing her. | -
+refresh | She looked at the picture to refresh her memory. | -
+refreshment | Can I offer you some refreshment? | -
+refuge | Idleness is only the refuge of weak minds. | -
+refund | For a refund, you must return the item unopened. | -
+refusal | My refusal to explain exempts me from the poll. | -
+refute | I don't want to refute this outworn idea. | -
+regime | All political dissidents were purged under the former regime. | -
+region | There were storms in that region of the country. | -
+register | Tom was caught stealing money from the cash register. | -
+regulation | The regulation was abolished, but then it was reenacted. | -
+rehearsal | We act in our lives without rehearsal and prompter. | -
+reign | He began to reign at the age of forty. | -
+rein | She kept a tight rein on the purse strings. | -
+reinforce | We need to reinforce the roof. | -
+reject | Publishers often reject very good manuscripts from expert authors. | -
+rejoice | I rejoice in your success. | -
+relative | A close neighbor is better than a distant relative. | -
+relay | I need you to relay some information for me. | -
+release | The company will release the new drug next month. | -
+relevant | Your question is not relevant to the subject. | -
+reliable | He grew up to be a very reliable man. | -
+relief | You have to raise funds for the relief work. | -
+relieve | She stretched to relieve the stiffness in her back. | -
+religion | There was a great conflict between religion and science. | -
+religious | Keep off the religious issue when talking with him. | -
+relish | He did not relish this simple family life. | -
+reluctant | The mother was reluctant to leave her children alone. | -
+rely | I know you can rely on him for transportation. | -
+remain | I wish to exercise my right to remain silent. | -
+remainder | He was excused from the remainder of the work. | -
+remedy | Your only remedy is to go to the law. | -
+remnant | A remnant of the old army is supporting and perhaps leading the current chaos. | -
+remote | He lived in a house remote from the village. | -
+renaissance | His compositions represent the last echo of Renaissance music. | -
+render | Japanese food terms are difficult to render into other languages. | -
+repay | Lend money only to such as will repay it. | -
+repel | There are plants that repel insects. | -
+repertoire | He incorporated the joke into his repertoire. | -
+represent | Six percent home loans represent the industry average now. | -
+repression | The seed of revolution is repression. | -
+reproach | He has something to reproach you about. | -
+reputation | The reputation of those musicians is not the best. | -
+resemblance | The child bears a closer resemblance to his mother. | -
+resent | I resent the way he treated me. | -
+reservation | I ought to have made a hotel reservation earlier. | -
+reserve | It is essential to reserve your seat in advance. | -
+reside | The people who reside here are our friends. | -
+resident | Our resident squirrel eats all our camellias. | -
+residential | A factory is not suitable for a residential district. | -
+resign | The president of the university is likely to resign. | -
+resistant | Many are convinced that he is resistant to advice. | -
+resolve | You can resolve this as a system of equations. | -
+resort | Chance has thrown us together at a skiing resort. | -
+respective | Let's discuss the respective merits of the candidates. | -
+respond | I will not ask- or else someone will respond. | -
+response | The candidate made a quick response to the criticism. | -
+responsible | Smoking is responsible for many cases of lung cancer. | -
+restore | They had to call the police to restore order. | -
+restrain | We tried to restrain him from his reckless action. | -
+restraint | She was angry, but she spoke with restraint. | -
+restrict | He feels this new law will restrict his freedom. | -
+resume | Tom advised the job applicant to redo her resume. | -
+retain | He sacrificed his outstanding career to retain his dignity. | -
+retort | He was tempted to retort, but thought better of it. | -
+retrieve | The secretary went to the storage room to retrieve the file. | -
+retrospect | In retrospect, that decision was a mistake. | -
+reunion | Tom went to his high school reunion last week. | -
+reveal | These letters reveal her to be an honest lady. | -
+revelation | His extensive knowledge of music was a revelation to us. | -
+revenge | The officer seemed to be afraid of their revenge. | -
+revenue | The administration cannot but look for alternative sources of revenue. | -
+reverse | My telephone plan does not accept reverse charge calls. | -
+revive | That will help revive a fashion of the past. | -
+revolutionary | The government was overthrown in a revolutionary coup. | -
+revolve | The world does not revolve around you. | -
+reward | You told him that he should have a reward. | -
+rhythm | I like the slow rhythm of that song. | -
+ridiculous | His story was too ridiculous for anyone to believe. | -
+rig | Tom works on an oil rig. | -
+rigorous | The top engineer put the car through a series of rigorous tests. | -
+rim | I enjoy sipping on a margarita with salt around the rim. | -
+rip | I can rip you apart with my bare hands. | -
+ritual | The sacred ritual took place after being postponed twice. | -
+rival | Two rival parties are essential to good democratic government. | -
+rivalry | The quarrel originated in rivalry between the two countries. | -
+robust | So far from being robust, he was extremely weak. | -
+romance | There is no room for romance in my life. | -
+rot | Put the meat in the refrigerator, or it will rot. | -
+rotary | Do you remember that we had a phone with a rotary dial? | -
+routine | My wife is getting tired of the daily routine. | -
+royalty | Intel gets a huge royalty from the invention. | -
+ruin | The house has been left to go to ruin. | -
+rupture | Rupture stress is much higher in the case of metals as it is for plastics. | -
+sacred | The sacred ceremony was held in the magnificent temple. | -
+sacrifice | This job position demands a lot of personal sacrifice. | -
+safeguard | The safeguard of the state shall be the supreme law. | -
+sake | I stopped smoking for the sake of my health. | -
+salute | The captain gave orders for a salute to be fired. | -
+salvation | The salvation of the human race starts with the family. | -
+sample | We would now like to have some sample flashlights. | -
+sanction | That requires the sanction of the government. | -
+saturate | Kaleidoscopic prints saturate my blank mind, creating vital memories and burning thoughts. | -
+savage | There are still some savage tribes on that island. | -
+scale | The scale seems to be off by two pounds. | -
+scan | My laser printer can also scan an image. | -
+scandal | His clinic has lost many patients since the scandal. | -
+scar | Tom has a scar just below his left eye. | -
+scatter | Scatter a little flour on the work surface. | -
+scent | This wine is superior to that one in scent. | -
+schedule | The train was almost an hour behind schedule today. | -
+scheme | The community scheme has run up against local opposition. | -
+scope | This subject is outside the scope of our inquiry. | -
+score | We lost by a score of three to one. | -
+scorn | His face and attitude showed the scorn he felt. | -
+scramble | The scramble for Africa was the last wave of colonialism. | -
+scrap | This car will soon have to go for scrap. | -
+scrape | I managed to get out of the scrape. | -
+scratch | You should try not to scratch your insect bites. | -
+screw | To loosen a screw, turn it to the left. | -
+scrub | Don't use your bare hands to scrub the floor. | -
+scrutiny | Corporate political donations are coming under heavy scrutiny. | -
+sculpture | This sculpture is more than two thousand years old. | -
+seam | In order to fix this mistake we'll have to tear out this seam. | -
+security | Hackers are adept at getting around computer security measures. | -
+seemingly | The world is a place of seemingly infinite complexity. | -
+segment | Divide this line segment into twenty equal parts. | -
+segregate | Racist politicians want to segregate schools again. | -
+semester | Some students aren't going to come back next semester. | -
+senator | The senator has a very demanding schedule this week. | -
+sensation | I have a prickling sensation in my left eye. | -
+sensible | It was sensible of you to follow her advice. | -
+sensitive | An artist has to have a color-sensitive eye. | -
+sentiment | Mary is a girl full of sentiment. | -
+sequence | The fibonacci sequence makes numerous appearances throughout the natural world. | -
+sergeant | The sergeant ordered the private to do push ups. | -
+serial | The television serial is getting more and more interesting. | -
+series | He has just published an interesting series of articles. | -
+setback | Our negotiations to lower export taxes suffered a big setback. | -
+settle | Let us settle the matter without a third party. | -
+settlement | We expect an early settlement of the affair. | -
+severe | No weather was severe enough to keep him indoors. | -
+shabby | The room was empty except for a shabby bed. | -
+shaft | From here, you can look down the elevator shaft. | -
+shark | My older brother borrowed money from a loan shark. | -
+shatter | I call on the living, lament the dead, shatter the lightning. | -
+shed | I cannot shed a tear for that horrible man. | -
+sheer | About half of everything he says is sheer fiction. | -
+shepherd | I was not made for the life of a shepherd. | -
+shield | Nurture strength of spirit to shield you in sudden misfortune. | -
+shipment | Please disregard this notice if your shipment has already been made. | -
+shove | I think it's time for me to shove off. | -
+shrewd | Tom is a very shrewd businessman. | -
+shrink | Why do sheep not shrink in the rain? | -
+shrub | Can you help me replant this shrub? | -
+shrug | She gave a shrug of the shoulders. | -
+shutter | I forgot to shutter the windows before the storm hit. | -
+shuttle | My dream is to travel in a space shuttle. | -
+siege | The siege of the fortress lasted a long time. | -
+sieve | I have a memory like a sieve. | -
+signal | Drivers have to pay attention to the traffic signal. | -
+significant | But the benefits are significant at all ages. | -
+signify | Oranges signify a happy love, while lemons - an unrequited one. | -
+silicon | Tom works for a tech company in Silicon Valley. | -
+similar | I remember hearing a very similar story to that. | -
+simultaneous | He really wants to work as a simultaneous interpreter. | -
+sip | She moistened her lips with a sip of water. | -
+situated | The island is situated five kilometers off the coast. | -
+skeleton | Tom Skeleton was shaking and trembling in every limb. | -
+skeptical | Tom is probably going to be skeptical about that. | -
+skip | In order to lose weight some people skip meals. | -
+skull | Sami was shot to the base of the skull. | -
+slack | We tend to slack off after many hours of hard work. | -
+slap | His rude reply provoked her to slap his face. | -
+slash | I'll slash your tires! | -
+slaughter | The slaughter of the prisoners was a barbarous act. | -
+slice | Tom ate three eggs and a slice of toast. | -
+slick | I’ll just slick my hair back. | -
+slide | Now, just let the clay slide between your fingers. | -
+slight | I have a sore throat and a slight fever. | -
+slip | Tom talked too much and let the secret slip. | -
+slippery | The slippery snake slithered right out of his hand. | -
+slogan | The slogan was designed to rouse the people. | -
+slope | A snow gun covered the ski slope with snow. | -
+slot | I don't like to play on the slot machines. | -
+slum | This slum is growing like a weed. | -
+slump | The stock market is in a prolonged slump. | -
+smash | The player put an easy smash into the net. | -
+smuggle | Mary tried to smuggle a hacksaw blade into the prison inside a cake. | -
+snack | I had some custard pudding for an afternoon snack. | -
+snatch | You have to snatch at happiness when you can. | -
+sneak | Sami promised his mom not to sneak out anymore. | -
+sniff | Why do you sniff things you see on the ground? | -
+soar | The birds soar in the air. | -
+sober | Tom could have been intoxicated, but he acted sober. | -
+sociology | My special branch of study is sociology. | -
+solemn | The priest pretends to be solemn in public. | -
+solicitor | I asked the solicitor to make out my will. | -
+solidarity | Make solidarity and equal rights the cornerstone of public policy. | -
+solitary | His sentence of solitary confinement permanently ruined his life. | -
+solo | She played the piano accompaniment for a violin solo. | -
+soluble | Silver chloride is not completely water-soluble. | -
+solution | We beat about for a solution to the problem. | -
+sophisticated | The engineer demonstrated how to operate the sophisticated system. | -
+sour | His facial expression was more sour than a lemon. | -
+sovereign | The sovereign completely recovered from his illness. | -
+spacious | The children occupied the large and spacious classroom. | -
+span | The life span of a butterfly is short. | -
+sparkle | Add a sparkle trail to a photo. | -
+specialist | He has excellent techniques which would outdo a specialist. | -
+specialty | My specialty is being right when other people are wrong. | -
+species | This species holds the record for long-distance migration. | -
+specific | A soft answer is a specific cure of anger. | -
+specification | Any industrial property rights relating to the Product Specification shall belong to ABC Inc. | -
+spectacle | The royal wedding was a great spectacle. | -
+spectator | Tom has no interest whatsoever in spectator sports. | -
+spectrum | He leans to the left side of the political spectrum. | -
+speculate | As to what happened there, one can only speculate. | -
+spice | Sami was looking to spice up his life. | -
+spine | The sight sent chills of delight up my spine. | -
+spiral | Sami put his spiral notebook on the table. | -
+spite | Mary kept on working in spite of her illness. | -
+splash | He jumped into the water with a splash. | -
+spoil | The meat will spoil quickly in such hot weather. | -
+sponge | Please sponge the mess up off the table. | -
+spontaneous | We had a lot of spontaneous offers from them. | -
+spouse | A widow is a woman whose spouse has died. | -
+sprinkle | We sprinkle salt to ward off bad luck. | -
+spy | White was denounced to the police as a spy. | -
+squad | My brother is a member of the rescue squad. | -
+stab | Sami had visible stab wounds in the neck area. | -
+stability | Occupational stability is of great concern to recently graduated students. | -
+stabilize | The authorities are striving in vain to stabilize the currency. | -
+stable | Prices have been stable for the past three years. | -
+stack | Only one stack had a real bill on top. | -
+stagger | But somehow he managed to stagger to the doors. | -
+staircase | The wooden staircase creaked under their heavy feet. | -
+stalk | The stalk is a little bigger around than your little finger. | -
+stall | The horse never refuses to gallop to its stall. | -
+standpoint | From the standpoint of the law, he is free. | -
+staple | Instant noodles are a staple among college students. | -
+startle | I didn't mean to startle you. | -
+statement | I began to doubt the accuracy of his statement. | -
+statesman | The statesman seems to be concerned with the affair. | -
+stationary | The population remains stationary. | -
+status | His was a life pursuing social status and power. | -
+stereo | Something seems to be wrong with the stereo set. | -
+stereotype | There is no such thing as a good stereotype. | -
+stern | Silvia had a stern father who never praised her. | -
+sticky | This sticky liquid can be substituted for glue. | -
+stimulus | Light is the stimulus that causes a flower to open. | -
+stock | The stock market is often called a dangerous one. | -
+straightforward | My father is a hard-working, straightforward, and modest person. | -
+strain | The strain has begun to tell on his health. | -
+strand | She twisted a strand of hair around her finger. | -
+strategy | This strategy is specific to that kind of operation. | -
+stray | I hope you get shot by a stray bullet. | -
+streak | Sami had a bit of a narcissistic streak. | -
+stream | A stream of people came out of the theater. | -
+streamline | The mayor of New York made an effort to streamline municipal government. | -
+stride | Tom seems to be taking things in stride. | -
+string | Lend me something with which to cut the string. | -
+strive | They had to strive against natural calamities for ages. | -
+stroke | Selling products sometimes requires having a stroke of genius. | -
+stroll | Spaniards love to stroll around in the evening cool. | -
+stubborn | My father is too stubborn to admit his faults. | -
+stumble | She walked carefully so as not to stumble over a rock. | -
+stump | Tom sat on the tree stump, reading a book. | -
+stun | Sami bought a stun gun. | -
+sturdy | This is a very sturdy chair to sit in. | -
+subjective | Marilla was not given to subjective analysis of her thoughts and feelings. | -
+submarine | A submarine can travel over and under the water. | -
+submit | He is the last man to submit to authority. | -
+subordinate | All the other issues are subordinate to this one. | -
+subscribe | I do not expect you to subscribe to my opinion. | -
+subsequent | I want quick action subsequent to the decision. | -
+subsidiary | The company is our wholly-owned subsidiary. | -
+subsidy | She turned down the subsidy that I offered. | -
+substance | This substance is going from liquid to solid state. | -
+substantial | Using cash makes you think money is truly substantial. | -
+substitute | It is impossible to substitute machines for people themselves. | -
+subtle | There is a subtle difference between the two words. | -
+subtract | The children are learning to add and subtract. | -
+suburb | Sami grew up in a blue-collar suburb. | -
+successive | I went there by myself, often on successive evenings. | -
+successor | Two is the only prime whose successor is prime. | -
+sue | The girl standing over there is my sister Sue. | -
+suffice | In order to conduct oneself with wisdom, intelligence alone does not suffice. | -
+sufficient | These are not sufficient reasons for breaking the promise. | -
+suite | This suite is three times larger than my condominium. | -
+sulfur | Hydrogen, carbon, nitrogen, phosphorus, oxygen, sulfur and selenium are nonmetals. | -
+summit | The summit of the mountain is covered with snow. | -
+summon | Summon up your courage and tell the truth. | -
+superficial | He has only a superficial knowledge of the subject. | -
+superintendent | The superintendent lives on the ground floor. | -
+superior | I will judge whether it is superior or not. | -
+superiority | I admit her superiority to others. | -
+supersonic | The airplane is capable of supersonic speeds. | -
+supervise | While she is writing, her dad will supervise. | -
+supplement | You had better supplement your diet with vitamins. | -
+supplementary | Supplementary information includes adverbs and things that function as adverbs. | -
+suppress | It will take a long time to suppress the revolt. | -
+supreme | He believed in the supreme power of the law. | -
+surge | He is having a sudden surge of self-confidence! | -
+surgeon | He is as skillful a surgeon as ever lived. | -
+surgery | Cosmetic surgery is not covered by most insurance plans. | -
+surpass | Do you want so much to surpass me? | -
+surplus | I bought a backpack at the army surplus store. | -
+survival | Air pollution will be a threat to our survival. | -
+survive | The strong will survive and the weak will die. | -
+susceptible | Socially awkward children are more susceptible to bullying. | -
+suspension | There is a suspension bridge ahead of us. | -
+suspicion | I had a suspicion that he would leave me. | -
+suspicious | I am suspicious that this is an illegal taxi. | -
+sustain | Heavy posts are needed to sustain this bridge. | -
+swamp | He lives alone in a small cabin in the swamp. | -
+swap | Never swap horses while crossing a stream. | -
+symbol | The lion is often used as a symbol of courage. | -
+symmetry | Cephalopods are marine animals characterised by tentacles and bilateral body symmetry. | -
+sympathetic | The girl and her parents were very sympathetic. | -
+sympathy | You often find that sympathy gives place to love. | -
+symphony | The four-year old prodigy composed a symphony. | -
+symposium | The symposium was a little rougher than usual: "Never again," said Socrates the morning after. | -
+syndrome | That man suffers from post-traumatic stress syndrome. | -
+synthesis | His work is a synthesis of several ideas. | -
+tack | If a conversation is not going too well, try changing tack. | -
+tackle | Tom seems to be unwilling to tackle the problem. | -
+tame | Her dog is not so much faithful as tame. | -
+tan | I am going to try to get a good tan. | -
+tangle | Don't pull, or you'll tangle the threads. | -
+tanker | The tanker has only a small crew on board. | -
+target | No matter how low the target, always aim higher. | -
+tariff | We hope to lower the tariff. | -
+tease | My mom used to tease me all the time about it. | -
+tedious | Your eccentricities can make you either charming or tedious. | -
+temper | The man waiting for the bus lost his temper. | -
+temperament | Tom certainly has the right temperament for the job. | -
+tempo | Tom beat the drum at a slow tempo. | -
+tempt | Nothing would tempt me to deceive him. | -
+tenant | The previous tenant took excellent care of her apartment. | -
+tendency | She seems to have a tendency to exaggerate things. | -
+tentative | The parties have reached a tentative agreement. | -
+terminate | Participation in a strike does not entitle the employer to terminate the employee's contract of employment. | -
+terrace | Could we have a table on the terrace? | -
+terrain | The rough terrain checked the progress of the hikers. | -
+terrific | The performance received terrific applause from the audience. | -
+terrify | The various atrocities performed still shock and terrify the world today. | -
+territory | The armed forces succeeded in occupying the entire territory. | -
+testify | He came as a witness to testify concerning that light. | -
+testimony | But still you people do not accept our testimony. | -
+texture | This yarn will give the garment a softer texture. | -
+thanksgiving | Mary bought a gravy boat for the Thanksgiving holiday. | -
+theft | The police brought a charge of theft against him. | -
+theme | We had a thrilling time at the theme park. | -
+thereafter | Shortly thereafter, the dearth returned to the house. | -
+therefore | He came first. Therefore he got a good seat. | -
+thermal | Air provides considerable thermal insulation when trapped in a chamber. | -
+thesis | You have to take your time over your thesis. | -
+thigh | You need to have strong thigh muscles to skate. | -
+thorn | Like a thorn stuck in your throat. | -
+threaten | There are dangers that threaten both men and women. | -
+threshold | Tom has a high threshold for pain. | -
+thrill | They do it just for the thrill of it. | -
+thrive | The shortage of water means that plants cannot thrive. | -
+throne | Under no circumstances will the princess succeed to the throne. | -
+tick | I like to take things apart to see what makes them tick. | -
+tickle | Tom continued to tickle her. | -
+tile | The tile that fell from the roof broke into pieces. | -
+tilt | Don't tilt your chair back. | -
+timely | You must perform all assignments in a timely manner. | -
+timid | Bob is very timid and blushes when chatting with girls. | -
+tissue | I need a deep-tissue massage after a tough day. | -
+token | He offered me some money in token of gratitude. | -
+tolerant | Tom is very tolerant in his attitude toward religion. | -
+toll | These problems might take a toll on your relationship. | -
+toss | I had to toss up between two of them. | -
+tow | Tom saw a tow truck leaving the parking lot. | -
+toxic | Layla was raised in a very toxic environment. | -
+tract | Millions of beneficial organisms live in the human digestive tract. | -
+trademark | The trademark is very well known. | -
+tragic | I was moved to tears by the tragic story. | -
+trait | Generosity is an important trait in today's selfish society. | -
+transaction | I have to close this transaction within a week. | -
+transcend | To be human we must transcend our animal nature. | -
+transfer | We will make the payment by bank transfer. | -
+transform | Repetition does not transform a lie into a truth. | -
+transient | The life of a person is a transient thing. | -
+transistor | The invention of the transistor introduced a new era. | -
+transit | I listen to the radio while in transit. | -
+transition | My transition from male to female is going well. | -
+transmission | There might have been an error during transmission. | -
+transmit | We have to transmit our culture to the next generation. | -
+transplant | Tom is in desperate need of a heart transplant. | -
+transport | Commuters were deprived of their transport by the strike. | -
+traverse | Unfamiliar terrain can be difficult to traverse. | -
+treaty | He said the treaty must be approved as written. | -
+tremendous | The merchant accumulated tremendous fortune during the postwar era. | -
+trench | Tom always wears sunglasses and a trench coat. | -
+trend | The trend of public opinion is against corporal punishment. | -
+trial | Their first fall there was a trial for them. | -
+tribe | Members of the tribe settled down along the river. | -
+tribute | This is a small tribute to all my teachers. | -
+trifle | I paid only a trifle for the picture. | -
+trigger | The man plucked up courage and pulled the trigger. | -
+triple | Tom has just made a triple bogey. | -
+triumph | To conquer without danger is to triumph without glory. | -
+trivial | Such a trivial thing is out of the question. | -
+tub | Japanese love to soak in a hot tub before bed. | -
+tuck | I tuck my children into bed every night. | -
+tug | The angler felt a strong tug on the line. | -
+tuition | I am working to save for my college tuition. | -
+tumble | The typhoon caused a tree to tumble on my yard. | -
+tunnel | This tunnel is twice as long as that one. | -
+turbulent | These are turbulent times. | -
+turnover | The turnover at my company is really speeding up lately. | -
+tutor | My tutor scolded me for my stupid behavior. | -
+twist | This mystery has a plot twist that's completely novel. | -
+ultimate | Fadil will pay the ultimate price for doing this. | -
+ultraviolet | Caribou can spot wolves using their ultraviolet vision. | -
+unanimous | It was by no means unanimous, but your proposal was selected. | -
+underestimate | People have a tendency to underestimate their future needs. | -
+undergo | The new engine must undergo all the necessary tests. | -
+underlying | We will study the underlying molecular occurrences of fertilization. | -
+undermine | The market tends to undermine the very values that gave rise to it. | -
+unemployment | Long-term unemployment can be very frustrating and demoralising. | -
+unfold | New questions will be asked and new debates will unfold. | -
+unique | His unique perspective helped shed light on the situation. | -
+unity | Their team has a strong sense of unity. | -
+universe | I am invited to the end of the universe. | -
+update | The computer stopped working after an automatic system update. | -
+upgrade | We will replace the current version with the upgrade. | -
+uphold | We must uphold family traditions. | -
+upright | Even after it was hit, the pole was still upright. | -
+urban | More and more people are moving to urban areas. | -
+urge | He felt a sudden urge to write a novel. | -
+utilize | We had better utilize our natural resources. | -
+utmost | We should do our utmost to establish world peace. | -
+vacant | The vacant lot is laid out as a park. | -
+vain | The boy made vain efforts to reach the shore. | -
+valid | This ticket is valid for two days after purchase. | -
+valve | He was born with an incompletely formed heart valve. | -
+van | Tom is asleep in the back of the van. | -
+variation | This is the humorous variation of a certain proverb. | -
+various | The province supplies its neighbors with various raw materials. | -
+vary | The boxes vary in size from small to large. | -
+vast | A vast majority of people approve of the plan. | -
+vegetation | The vegetation is being replaced by factories and highways. | -
+vehicle | The police pursued the stolen vehicle along the motorway. | -
+veil | This bride is covering her face with a veil. | -
+vein | A vein of poetry exists in the hearts of all men. | -
+velocity | The derivatives of space with respect to time are velocity, acceleration, and jerk. | -
+velvet | Her dear hand rested like warm velvet upon my lips. | -
+vent | He is apt to give vent to his feelings. | -
+venture | We are affiliated with the new joint venture company. | -
+verbal | Emotion counts above vocabulary in verbal communication. | -
+verdict | Her hopes were dashed when she heard the verdict. | -
+verge | The poor cat was on the verge of starvation. | -
+verify | You can verify your balance on the bank's site. | -
+versatile | The human hand is astonishingly versatile. | -
+verse | In everyday life no one speaks in verse. | -
+version | You must request the latest version of the software. | -
+versus | The exchange rate of the dollar versus the euro has declined. | -
+vertical | Tango is the vertical expression of a horizontal desire. | -
+veto | I have no authority to veto it. | -
+vice | Everybody knows that he likes her and vice versa. | -
+vicinity | There are no hospitals in the vicinity of his house. | -
+vicious | The answer leads us to a vicious circle. | -
+victim | Tom was the victim of a random sniper attack. | -
+vigorous | You will be more vigorous if you exercise. | -
+violate | Those who violate the rules will be punished. | -
+violent | They began to make violent attacks against the enemy. | -
+virgin | That girl who's wearing a scarf is a virgin. | -
+virtual | Full body scanners perform a virtual strip search. | -
+virtue | It is a virtue never to tell a lie. | -
+visa | I am going to apply for a visa today. | -
+vision | The husband presents a more spiritual vision of religion. | -
+visualize | Sami was trying really hard to visualize that. | -
+vital | Products made from petroleum are vital to modern societies. | -
+vivid | The playwright cherishes the vivid memories of his childhood. | -
+vocal | Public feeling against air pollution has at last become vocal. | -
+vocational | She went through a long and arduous vocational course. | -
+void | The will was declared void by the court. | -
+volume | Please turn down the volume a little bit more. | -
+voluntary | The company appealed for people to take voluntary resignation. | -
+volunteer | I have a friend who works as a volunteer. | -
+vulgar | I am fed up with his vulgar jokes. | -
+vulnerable | We are never as vulnerable as when we love. | -
+wallet | I may have left my wallet on the bus. | -
+ward | The child was made a ward of the state. | -
+wardrobe | A three-handed monster came out of the wardrobe. | -
+warehouse | Tom sneaked into a warehouse to steal spare parts. | -
+warfare | Dan knows very well how to deal with psychological warfare. | -
+warrant | An arrest warrant was issued for the company's accountant. | -
+watertight | The ship hull is divided into watertight compartments. | -
+watt | The watt is the International System of Units' standard unit of power. | -
+wax | The ear has a lot of wax in it. | -
+wealth | It goes without saying that health is above wealth. | -
+wealthy | He is wealthy in appearance but not in reality. | -
+weapon | I looked around for a weapon just in case. | -
+weary | The old man beguiled the weary day with cards. | -
+web | She taught me how to make a web site. | -
+wedge | Would you like another wedge of pie? | -
+weird | I saw something weird on my way to work. | -
+whereas | Squid ink is edible whereas ballpen ink is not. | -
+whirl | Let's give it a whirl. | -
+withdraw | I have to withdraw some cash from the bank. | -
+withhold | "Ten days the seer, as shrinking to reply / or name a victim, did the doom withhold." | -
+witness | I happened to witness the bullying in the corridor. | -
+worthwhile | It is worthwhile to have a try at it. | -
+worthy | There was nothing worthy of remark at the fair. | -
+wreck | The divers found a wreck on the sea-bed. | -
+wrench | Tom came in with a wrench in his hand. | -
+wretched | The family lived a wretched life during the war. | -
+wrinkle | Hang up your shirts before they wrinkle. | -
+yacht | You are welcome to the use of my yacht. | -
+yell | Tom had the nerve to yell at the judge. | -
+yield | I yield to no one in abhorrence of violence. | -
+yoke | They were under the yoke of a tyrant. | -
+zinc | Brass is an alloy of copper and zinc. | -
