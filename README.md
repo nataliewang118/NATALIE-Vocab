@@ -43,21 +43,33 @@
 
 网址是 <https://nataliewang118.github.io/cet6-vocab/>。
 
-改完发布就三步：
+改完发布就两步：
 
 ```
 git commit -am "改了什么"
-python _push_api.py
+git push
 ```
-
-**不要用 `git push`，推不上去。** 这台机器上 `github.com` 被墙（连 443 超时），
-但 `api.github.com` 是通的，所以 `_push_api.py` 走 Git Data API 把当前 commit 送上去。
-它每次都是**拿远端最新 + 本地 HEAD 打一条新 commit**，不是覆盖，历史是连着的。
 
 > 分支是 `master`（跟积分小天地、小狐狸侦探一致），Pages 从根目录发布。
 
 推完约 1 分钟生效。浏览器里**打开两次**才是新的
 （第一次拿缓存，第二次才轮到后台取回的版本）——不是没生效。
+
+### 这台机器的网络（重要）
+
+`github.com` 被**半封**：连接能建立、HTTP 头也能收到，但数据传到一半就卡死到 12 秒超时。
+所以**用 HTTPS 的 `git push` 是走不通的**。`api.github.com` 反而完全正常。
+
+绕法是走 **SSH 的 443 端口**（`ssh.github.com` 没被封）。已经配好了：
+
+- `~/.ssh/config` 把 `github.com` 指到 `ssh.github.com:443`
+- 密钥 `~/.ssh/id_ed25519`，挂在这个仓库上的是 **deploy key**（仓库专属，不是账号级，权限更小）
+
+⚠️ **只对这一个仓库有效。** 同一把公钥挂不到第二个仓库（GitHub 报 `key is already in use`），
+积分小天地和小狐狸侦探要用的话得各自生成一对密钥。
+
+`_push_api.py` 留着当**备用通道**：万一 SSH 也抽风，`python _push_api.py` 能从 API 那边推上去
+（它读本地 HEAD、走 Git Data API，历史是接着的，不是覆盖）。
 
 ## 三个方向
 
@@ -185,7 +197,7 @@ python _test.py
 | `_build_sents.py` | 例句挑选 + → index.html |
 | `_icon.py` | 生成主屏幕图标 |
 | `_test.py` | 回归测试 |
-| `_push_api.py` | 发布（走 API，因为 `git push` 被墙） |
+| `_push_api.py` | 备用发布通道（SSH 抽风时走 API 推） |
 | `sw.js` / `manifest.webmanifest` | 离线缓存 / PWA 清单 |
 | `start-server.bat` | 本机起服务（端口 8011） |
 | `_data/` | 下载的原始语料，不入库 |
