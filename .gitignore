@@ -1,4 +1,3 @@
-__pycache__/
-_edgeprof/
+# 干活留下的，全都不入库：_data/ _edgeprof/ 以及临时开的浏览器 profile
+_*/
 _test.html
-_data/
