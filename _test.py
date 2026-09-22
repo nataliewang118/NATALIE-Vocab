@@ -30,15 +30,25 @@ function mkQ(pool, dir){
 
 /* ---------- 一、真实数据：格式对账 ---------- */
 try{
-  t('词库非空', WORDS.length > 1500);
+  t('词库非空', WORDS.length > 4000);
   t('每词都有 word/cn/id', WORDS.every(function(w){ return w.word && w.cn && w.id; }));
-  t('每词都有音标', WORDS.every(function(w){ return w.phonetic && w.phonetic.charAt(0)==='/'; }));
+  t('每词都带级数', WORDS.every(function(w){ return /^[46]+$/.test(w.lv); }));
+  // 一级一个数：lv 含 '4' 的算四级、含 '6' 的算六级，'46' 两边都算，所以加起来要减掉重合
+  var n4 = WORDS.filter(function(w){ return w.lv.indexOf('4')>=0; }).length;
+  var n6 = WORDS.filter(function(w){ return w.lv.indexOf('6')>=0; }).length;
+  var nx = WORDS.filter(function(w){ return w.lv==='46'; }).length;
+  t('四级 '+n4+' / 六级 '+n6+' / 重合 '+nx,
+    n4 > n6 && nx > 500 && n4 + n6 - nx === WORDS.length);
+  // 源文件里 a / I / well-known 这类本来就没给音标，也真用不着——只卡"绝大多数有"
+  var noPh = WORDS.filter(function(w){ return !w.phonetic; });
+  t('没音标的词在 40 个以内（实际 '+noPh.length+'）', noPh.length < 40);
+  t('有音标的话格式是 /…/', WORDS.every(function(w){ return !w.phonetic || w.phonetic.charAt(0)==='/'; }));
   t('id 唯一', Object.keys(WORDS.reduce(function(a,w){ a[w.id]=1; return a; },{})).length === WORDS.length);
   t('中文释义含汉字', WORDS.every(function(w){ return /[一-鿿]/.test(w.cn); }));
   // 同释义的词会让四选一出现两个"对"的选项——运行时排掉了，这里只确认数量在预期内
   var byCn = {}, dup = 0;
   WORDS.forEach(function(w){ if(byCn[w.cn]) dup++; else byCn[w.cn]=1; });
-  t('同释义组在 30 组以内（实际 '+dup+'）', dup < 30);
+  t('同释义组在 400 组以内（实际 '+dup+'）', dup < 400);
 
   // SENTS：键必须是真词，值必须正好一个 ___
   var sk = Object.keys(SENTS);
@@ -68,9 +78,10 @@ try{
 }catch(e){ t('真实数据段抛异常: '+e.message, false); }
 
 /* ---------- 二、假词库：出题池 ---------- */
+// 假词库全挂四级，这样默认级数下 lvWords() 能看见它们；要测级数过滤的再单独造
 var fake=[];
-for(var i=0;i<400;i++) fake.push({word:'zz'+i, cn:'测试'+i, phonetic:'/z/', full:'n. 释义'+i});
-WORDS = fake; WORDS.forEach(function(w,i){ w.id='w'+i; });
+for(var i=0;i<400;i++) fake.push({id:'w'+i, word:'zz'+i, cn:'测试'+i, phonetic:'/z/', full:'n. 释义'+i, lv:'4'});
+WORDS = fake;
 SENTS = {};                     // 假词库没有例句
 S = blank(); S.cfg.newLimit = 8;
 
@@ -114,7 +125,7 @@ try{
 
 /* ---------- 三、SRS 排期 ---------- */
 try{
-  S = blank(); WORDS = fake; WORDS.forEach(function(w,i){ w.id='w'+i; });
+  S = blank(); WORDS = fake;
   mkQ([WORDS[0]], 'en2cn');
   answer(pickRight(), true, Q.cur); Q.locked=false;
   var u = S.uw['w0'];
@@ -257,7 +268,83 @@ try{
   t('结算不报错', true);
 }catch(e){ t('结算段抛异常: '+e.message, false); }
 
-/* ---------- 八、音效不削顶 ---------- */
+/* ---------- 八、级数切换 ---------- */
+try{
+  // 两级混编的假词库：w0-w9 只四级，w10-w14 只六级，w15-w19 两边都有
+  var mix = fake.slice(0,20).map(function(w,i){
+    return {id:w.id, word:w.word, cn:w.cn, phonetic:w.phonetic, full:w.full,
+            lv: i<10 ? '4' : (i<15 ? '6' : '46')};
+  });
+  WORDS = mix; SENTS = {}; S = blank();
+
+  S.cfg.level = '4';
+  t('四级看得见四级独有 + 重合的词', lvWords().length === 15);
+  S.cfg.level = '6';
+  t('六级看得见六级独有 + 重合的词', lvWords().length === 10);
+  var both = WORDS[15];
+  S.cfg.level='4'; var in4 = lvFrom(both);
+  S.cfg.level='6'; var in6 = lvFrom(both);
+  t('重合的词两级都在', in4 && in6);
+  t('esc 会转义引号', esc('a"b\'c<d') === 'a&quot;b&#39;c&lt;d');
+
+  // 池子只铺当前级：六级铺不出四级独有的词
+  S = blank(); S.cfg.level = '6'; S.cfg.newLimit = 500;
+  var p6 = buildPool();
+  t('六级池子不含四级独有的词',
+    p6.length === 10 && p6.every(function(w){ return w.lv.indexOf('6') >= 0; }));
+  S = blank(); S.cfg.level = '4'; S.cfg.newLimit = 500;
+  t('四级池子不含六级独有的词',
+    buildPool().every(function(w){ return w.lv.indexOf('4') >= 0; }));
+
+  // 进度按 word id 存，切级不丢；统计只数当前级
+  S = blank(); S.cfg.level = '4';
+  rec('w0').stage = 5;
+  t('已掌握只算当前级', knownCount() === 1);
+  S.cfg.level = '6';
+  t('切到六级统计归零（进度还在，只是不数）', knownCount() === 0);
+  S.cfg.level = '4';
+  t('切回四级进度照旧', knownCount() === 1);
+  t('重合的词两级共享掌握度', (function(){
+      rec('w15').stage = 5;
+      S.cfg.level = '6'; var ok = knownCount() === 1;
+      S.cfg.level = '4'; return ok && knownCount() === 2;
+    })());
+
+  // 中译英队列：底层留两级的词，出题只取当前级
+  S = blank(); S.cfg.level = '4'; S.app.cn2en = ['w0','w10'];
+  var q4 = cn2enQueue();
+  t('中译英队列只取当前级', q4.length === 1 && q4[0].id === 'w0');
+  S.cfg.level = '6';
+  var q6 = cn2enQueue();
+  t('切到六级只剩六级那个', q6.length === 1 && q6[0].id === 'w10');
+  t('底层队列两级的存货都留着', S.app.cn2en.length === 2);
+
+  // 错词本也跟着级数走
+  S = blank(); S.cfg.level = '4';
+  S.uw['w1'] = {stage:0, nextReview:0, lastSeen:0, correct:0, wrong:1, fuzzy:0, solved:0, caseAt:Date.now()};
+  t('错词本只列当前级的词', caseList('bad').length === 1);
+  S.cfg.level = '6';
+  t('切到六级错词本为空', caseList('bad').length === 0);
+  S.cfg.level = '4';
+  t('切回四级错词还在', caseList('bad').length === 1);
+
+  // 选方向页要标出当前级别，不然切到六级后进去看不出在练哪级
+  S = blank();
+  S.cfg.level = '6'; show('scr-dir');
+  t('选方向页标出六级', document.getElementById('dir-title').textContent.indexOf('六级') === 0);
+  S.cfg.level = '4'; show('scr-dir');
+  t('选方向页标出四级', document.getElementById('dir-title').textContent.indexOf('四级') === 0);
+
+  // 干扰项也从本级里挑
+  S = blank(); S.cfg.level = '6';
+  mkQ([WORDS[10]], 'en2cn');
+  t('干扰项不跨级（选项仍是 4 个不重）',
+    optTexts().length === 4 && new Set(optTexts()).size === 4);
+  var lv6cn = {}; lvWords().forEach(function(w){ lv6cn[w.cn] = 1; });
+  t('四个选项全部出自六级词', optTexts().every(function(s){ return lv6cn[s]; }));
+}catch(e){ t('级数切换段抛异常: '+e.message, false); }
+
+/* ---------- 九、音效不削顶 ---------- */
 setTitle();
 try{
   S.cfg.sfx = true;

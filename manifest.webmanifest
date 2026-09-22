@@ -1,6 +1,6 @@
 {
-  "name": "六级词汇",
-  "short_name": "六级词汇",
+  "name": "英语词汇",
+  "short_name": "英语词汇",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
