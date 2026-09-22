@@ -284,4 +284,27 @@ python _test.py
 | `_push_api.py` | 备用发布通道（SSH 抽风时走 API 推） |
 | `sw.js` / `manifest.webmanifest` | 离线缓存（network-first，改成新 SW 会自己刷页面）/ PWA 清单 |
 | `start-server.bat` | 本机起服务（端口 8011） |
+| `_remind.ps1` | Windows 到点弹框提醒背单词（见下） |
 | `_data/` | 下载的原始语料，不入库 |
+
+## 到点提醒（Windows）
+
+`_remind.ps1` 是个计划任务的脚本：**工作日 10:30 和 17:00** 弹一个框问「现在就开始？」，
+点「是」直接打开上面那个网址。装它的机器上已经建好了，任务名叫 `NATALIE背单词`。
+
+```
+powershell -ExecutionPolicy Bypass -File _remind.ps1 -Setup          # 重建任务（换时间/换电脑）
+Unregister-ScheduledTask -TaskName 'NATALIE背单词' -Confirm:$false   # 不要了
+Get-ScheduledTaskInfo -TaskName 'NATALIE背单词'                      # 看下次什么时候响
+```
+
+嫌时间不对就改脚本里 `@('10:30','17:00')` 那一行再 `-Setup` 一次（`-Force` 会覆盖旧的）。
+
+几个已经踩过的点，改的时候别踩回去：
+
+- **脚本必须存成 UTF-8 带 BOM。** PowerShell 5.1 读不带 BOM 的文件会按 GBK 解，中文全变乱码。
+- **写这个文件的时候小心 `\v`。** `WindowsPowerShell\v1.0` 里的 `\v` 在 Python 非 raw 字符串里
+  是**垂直制表符**——路径里混进一个控制字符，`Register-ScheduledTask` 会报
+  "Illegal xml character"，而且报错指着任务名，看着像中文名的锅，其实不是。用 raw 字符串写。
+- `-AllowStartIfOnBatteries`：不加的话笔记本用电池时**根本不会触发**。
+- `-StartWhenAvailable`：关机/睡眠错过的，开机后补一次。
