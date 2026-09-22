@@ -1,8 +1,9 @@
-# 句子练习的数据管线。两个子命令：
-#   python _build_sents.py pick    从 Tatoeba 英文语料里给每个词挑一句，写进 原始数据/sentences.txt
-#   python _build_sents.py inject  把 sentences.txt 灌进 index.html 的 SENTS 常量（挖空后）
+# 句子练习的数据管线。三个子命令：
+#   python _build_sents.py pick      从 Tatoeba 英文语料里给每个词挑一句，写进 原始数据/sentences.txt
+#   python _build_sents.py zh-merge  把 _tr/out_*.tsv 的翻译并回 sentences.txt 的第三列
+#   python _build_sents.py inject    把 sentences.txt 灌进 index.html 的 SENTS / TRANS 常量（挖空后）
 #
-# sentences.txt 是**可编辑的中间产物**：一行一句 `word | 英文句子 | 中文(可空)`。
+# sentences.txt 是**可编辑的中间产物**：一行一句 `word | 英文句子 | 整句中文(可空，写 - 表示不给)`。
 # pick 只是给个初稿，觉得哪句不合适直接改那一行再 inject 就行，别改 index.html 里的 SENTS。
 import bz2, io, re, sys, json, pathlib, collections
 
@@ -144,14 +145,22 @@ def pick():
             continue
         out.append((w['word'], cand))
 
+    # 已有的译文要留住：中文是逐句翻出来的（贵），重挑一次英文句子不值得把它冲成 -
+    old, _ = load_sents() if TXT.exists() else ({}, [])
     out.sort(key=lambda x: x[0].lower())
-    with io.open(TXT, 'w', encoding='utf-8') as f:
+    kept = 0
+    with io.open(TXT, 'w', encoding='utf-8', newline='') as f:
         f.write('# 句子练习例句。一行一句： 单词 | 英文句子 | 中文（可空，留空就写 -）\n')
         f.write('# 这是 _build_sents.py pick 生成的初稿，改完跑 inject。\n')
         f.write('# 挖空是 inject 时按「单词」那一列自动做的，别在句子里自己写 ___。\n')
         for w, s in out:
-            f.write('%s | %s | -\n' % (w, s))
-    print('写出 %d 句（%d 个词没找到合适例句，这些词只走英译中／中译英）' % (len(out), len(miss)))
+            prev = old.get(w.lower())
+            zh = prev['zh'] if prev and prev['en'] == s and prev['zh'] else ''
+            if zh:
+                kept += 1
+            f.write('%s | %s | %s\r\n' % (w, s, zh or '-'))
+    print('写出 %d 句（%d 个词没找到合适例句，这些词只走英译中／中译英）；复用旧译文 %d 条'
+          % (len(out), len(miss), kept))
     print('没例句的样本：', ', '.join(miss[:30]))
 
 def load_sents():
@@ -171,6 +180,61 @@ def load_sents():
             bad.append('%d 行 %s 重复了' % (i, w))
         out[w.lower()] = {'word': w, 'en': en, 'zh': '' if zh == '-' else zh}
     return out, bad
+
+TR = BASE / '_tr'
+
+def zh_merge():
+    """把 _tr/out_*.tsv（`序号<TAB>中文`，分块翻译的产物）并回 sentences.txt 的第三列。
+
+    序号是**数据行的行号**（0 起，跳过注释和空行），跟 _tr/in_*.tsv 是同一套——
+    也就是说**重跑 pick 换过句子以后，序号就对不上了**，得重新导出再翻。
+    分块文件 out_00.a.tsv…out_11.tsv 按文件名排序就是正确顺序（'.' < '1'）。
+    """
+    if not TR.exists():
+        sys.exit('没有 _tr/ 目录，没什么可并的')
+    zh, dup = {}, []
+    for f in sorted(TR.glob('out_*.tsv')):
+        for ln, line in enumerate(io.open(f, encoding='utf-8'), 1):
+            line = line.rstrip('\r\n')
+            if not line.strip():
+                continue
+            parts = line.split('\t')
+            if len(parts) != 2 or not parts[0].strip().isdigit():
+                sys.exit('%s 第 %d 行不是「序号<TAB>中文」：%s' % (f.name, ln, line[:60]))
+            i, t = int(parts[0]), parts[1].strip()
+            if not t:
+                sys.exit('%s 第 %d 行译文是空的' % (f.name, ln))
+            if i in zh and zh[i] != t:
+                dup.append(i)                      # 序号重复且译文还不一样，不能瞎选一个
+            zh[i] = t
+    if dup:
+        sys.exit('这些序号重复出现且译文不一致：%s' % dup[:10])
+
+    raw = io.open(TXT, encoding='utf-8', newline='').read()
+    lines = raw.split('\n')
+    idx, hit, dirty = 0, 0, 0
+    for n, line in enumerate(lines):
+        cr = '\r' if line.endswith('\r') else ''
+        body = line[:-1] if cr else line
+        if not body.strip() or body.lstrip().startswith('#'):
+            continue
+        parts = [p.strip() for p in body.split('|')]
+        if len(parts) != 3:
+            sys.exit('sentences.txt 第 %d 行不是三列：%s' % (n+1, body[:60]))
+        t = zh.pop(idx, None)
+        if t is None:
+            print('⚠ 第 %d 行（%s）没有译文，保持原样' % (idx, parts[0]))
+        else:
+            hit += 1
+            if parts[2] != t:
+                dirty += 1
+            lines[n] = ' | '.join([parts[0], parts[1], t]) + cr
+        idx += 1
+    if zh:
+        sys.exit('有 %d 个序号在 sentences.txt 里找不到对应行（前几个：%s），别硬并'
+                 % (len(zh), sorted(zh)[:10]))
+    io.open(TXT, 'w', encoding='utf-8', newline='').write('\n'.join(lines))
+    print('并回 %d/%d 行，改动 %d 行' % (hit, idx, dirty))
 
 def blank(en, word):
     """把词挖成 ___。生成时已经保证整词只出现一次，这里 count=1 兜底"""
@@ -211,23 +275,28 @@ def inject():
                     print('     ', x)
         sys.exit(1)
 
-    sents = {}
+    sents, trans = {}, {}
     for k, v in S.items():
         sents[k] = blank(v['en'], v['word'])
+        if v['zh']:
+            trans[k] = v['zh']
     html_path = BASE / 'index.html'
     html = html_path.read_text(encoding='utf-8')
-    blob = 'var SENTS = ' + json.dumps(sents, ensure_ascii=False, separators=(',', ':')) + ';'
-    new, cnt = re.subn(r'var SENTS = \{.*?\};', blob, html, count=1, flags=re.S)
-    if cnt != 1:
-        sys.exit('没找到 SENTS 块，index.html 结构变了')
-    html_path.write_text(new, encoding='utf-8')
-    print('已注入 %d 条例句' % len(sents))
+    for name, obj in (('SENTS', sents), ('TRANS', trans)):
+        blob = 'var %s = %s;' % (name, json.dumps(obj, ensure_ascii=False, separators=(',', ':')))
+        html, cnt = re.subn(r'var %s = \{.*?\};' % name, lambda m, b=blob: b, html, count=1, flags=re.S)
+        if cnt != 1:
+            sys.exit('没找到 %s 块，index.html 结构变了' % name)
+    html_path.write_text(html, encoding='utf-8')
+    print('已注入 %d 条例句，其中 %d 条带中文翻译' % (len(sents), len(trans)))
 
 if __name__ == '__main__':
     args = sys.argv[1:]
     if 'pick' in args:
         pick()
+    elif 'zh-merge' in args:
+        zh_merge()
     elif 'inject' in args:
         inject()
     else:
-        sys.exit('用法：python _build_sents.py pick | inject')
+        sys.exit('用法：python _build_sents.py pick | zh-merge | inject')

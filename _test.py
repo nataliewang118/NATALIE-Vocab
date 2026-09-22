@@ -24,7 +24,8 @@ function pickRight(){
 function mkQ(pool, dir){
   Q = { pool: pool, i:0, total:pool.length, dir:dir||'en2cn',
         correct:0, wrong:0, combo:0, best:0, served:{},
-        endAt: Date.now()+300000, total_ms:300000 };
+        endAt: Date.now()+300000, total_ms:300000,
+        hist:[], reviewIdx:-1 };
   tick(); nextQ();
 }
 
@@ -58,6 +59,13 @@ try{
   t('每条例句正好一个空', sk.every(function(k){
       var s=SENTS[k], m=s.match(/___/g); return m && m.length===1; }));
   t('例句都不含中文', sk.every(function(k){ return !/[一-鿿]/.test(SENTS[k]); }));
+
+  // TRANS：一句一译，键跟 SENTS 完全对齐，漏一个就会有些题答完不给中文
+  var tk = Object.keys(TRANS);
+  t('有中文翻译数据', tk.length > 1000);
+  t('翻译的键都在词表里', tk.every(function(k){ return allw[k]; }));
+  t('每条例句都有中文', sk.length === tk.length && sk.every(function(k){ return TRANS[k]; }));
+  t('翻译都是中文', tk.every(function(k){ return /[一-鿿]/.test(TRANS[k]); }));
 
   // 连答 60 题英译中，3/4 答对
   S = blank(); mkQ(buildPool(), 'en2cn');
@@ -352,7 +360,98 @@ try{
   t('首页大标题是 App 名', document.querySelector('#scr-home h1').textContent === 'NATALIE的词汇库');
 }catch(e){ t('品牌名段抛异常: '+e.message, false); }
 
-/* ---------- 十、音效不削顶 ---------- */
+/* ---------- 十、句子翻译 + 回看上一题 ---------- */
+setTitle();
+try{
+  S = blank(); S.cfg.newLimit = 500;
+  SENTS = {}; TRANS = {};
+  // 全用句子练习：带翻译的句子答完**不自动翻页**（给「继续」），
+  // 断言才不会被 900ms 后的 advance 抢跑，回看那几条也好测
+  for(var i=0;i<8;i++){ SENTS['zz'+i] = 'The ___ is on the desk.'; TRANS['zz'+i] = '这是第'+i+'个。'; }
+
+  mkQ(buildSentPool(), 'sent');
+  var w0 = Q.cur, other = [].filter.call(document.querySelectorAll('#q-opts .opt'),
+    function(b){ return b.textContent !== w0.word; })[0];
+  answer(pickRight(), true, w0);
+  var fb = document.getElementById('q-fb').innerHTML;
+  t('句子答对显示整句中文', fb.indexOf(TRANS[w0.word.toLowerCase()]) >= 0);
+  t('有中文可读时不自动翻页，给「继续」', !!document.getElementById('fb-cont'));
+  t('答对仍然只标绿（回看还原要一致）',
+    document.querySelectorAll('#q-opts .opt.right').length === 1 &&
+    document.querySelectorAll('#q-opts .opt.dim').length === 0);
+  t('答完记进回看历史', Q.hist.length === 1 && Q.hist[0].w.id === w0.id);
+  t('历史里存了反馈原文', Q.hist[0].fb === fb);
+  t('答完能点上一题', document.getElementById('btn-prev').disabled === false);
+  t('没在回看时没有「返回」键', document.getElementById('btn-next').style.display === 'none');
+
+  // 第二题答错，中文翻译也要给
+  advance();
+  var w1 = Q.cur;
+  var wrongBtn = [].filter.call(document.querySelectorAll('#q-opts .opt'),
+    function(b){ return b.textContent !== w1.word; })[0];
+  // 第三个参数得是**点中的那个选项**，不是正确的那个（真机上是 onclick 里传进来的）
+  var chosen = Q.options.filter(function(o){ return o.word === wrongBtn.textContent; })[0];
+  answer(wrongBtn, false, chosen);
+  t('句子答错也显示整句中文',
+    document.getElementById('q-fb').innerHTML.indexOf(TRANS[w1.word.toLowerCase()]) >= 0);
+  t('答错把词填回整句', document.getElementById('q-fb').innerHTML.indexOf(w1.word) >= 0);
+  t('答错标记了选错的那个',
+    Q.marks.right === w1.id && Q.marks.wrong === chosen.id && chosen.id !== w1.id);
+
+  // 回看：翻回上一题（第二题）
+  var stageW1 = JSON.parse(JSON.stringify(S.uw[w1.id]));
+  document.getElementById('btn-prev').onclick();
+  t('回看到的是刚答的那题', document.getElementById('q-word').textContent.indexOf(w1.word) >= 0);
+  t('回看时选项全部点不动',
+    [].every.call(document.querySelectorAll('#q-opts .opt'), function(b){ return b.disabled; }));
+  t('回看标出正确的那个', document.querySelectorAll('#q-opts .opt.right').length === 1);
+  t('回看标出选错的那个', document.querySelectorAll('#q-opts .opt.wrong').length === 1);
+  t('回看重现当时的反馈', document.getElementById('q-fb').innerHTML.indexOf('答错') >= 0);
+  t('回看时出现「返回」键', document.getElementById('btn-next').style.display !== 'none');
+  t('回看有提示文案', document.getElementById('review-hint').textContent.indexOf('回看第 2 / 2') === 0);
+
+  // 再往前翻一题（第一题，答对的那道）
+  document.getElementById('btn-prev').onclick();
+  t('再翻一题回到第一题', document.getElementById('q-word').textContent.indexOf(w0.word) >= 0);
+  t('回到最早一题后上一题禁用', document.getElementById('btn-prev').disabled === true);
+  t('回看时能点发音', document.getElementById('btn-speak').disabled === false);
+
+  // 返回：回到当前那道，选项可点、状态跟没进过回看一样
+  document.getElementById('btn-next').onclick();
+  t('返回后回到当前这题', document.getElementById('q-word').textContent.indexOf(w1.word) >= 0);
+  t('返回后「返回」键消失', document.getElementById('btn-next').style.display === 'none');
+  t('返回后提示清空', document.getElementById('review-hint').textContent === '');
+  t('返回后进度一点没动', JSON.stringify(S.uw[w1.id]) === JSON.stringify(stageW1));
+  t('回看没往历史里塞东西', Q.hist.length === 2);
+
+  // 当前这题**还没答**时去回看：返回后要完好如初——选项还能点、没有正误标记
+  advance();
+  t('新题没答过', Q.answered !== true && Q.marks === null);
+  document.getElementById('btn-prev').onclick();
+  t('没答题也能回看', document.getElementById('review-hint').textContent.indexOf('回看第 2 / 2') === 0);
+  document.getElementById('btn-next').onclick();
+  t('返回后选项还点得动',
+    [].every.call(document.querySelectorAll('#q-opts .opt'), function(b){ return !b.disabled; }));
+  t('返回后没有残留的正误标记',
+    document.querySelectorAll('#q-opts .opt.right, #q-opts .opt.wrong, #q-opts .opt.dim').length === 0);
+
+  // 没翻译的句子答完仍然自动翻页
+  SENTS = {}; TRANS = {}; SENTS['zz0'] = 'The ___ is on the desk.';
+  S = blank(); S.cfg.newLimit = 500;
+  mkQ(buildSentPool(), 'sent');
+  answer(pickRight(), true, Q.cur);
+  t('没中文翻译时不给「继续」', !document.getElementById('fb-cont'));
+
+  // 英译中/中译英不给中文翻译（给了就是泄题）
+  SENTS = {}; TRANS = {};
+  for(var j=0;j<8;j++){ SENTS['zz'+j] = 'The ___ is on the desk.'; TRANS['zz'+j] = '中文'+j; }
+  S = blank(); S.cfg.newLimit = 500;
+  mkQ(buildPool(), 'en2cn');
+  answer(pickRight(), true, Q.cur);
+  t('英译中不显示整句翻译', document.getElementById('q-fb').innerHTML.indexOf('中文') < 0);
+}catch(e){ t('翻译与回看段抛异常: '+e.message, false); }
+
+/* ---------- 十一、音效不削顶 ---------- */
 setTitle();
 try{
   S.cfg.sfx = true;
