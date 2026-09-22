@@ -344,7 +344,15 @@ try{
   t('四个选项全部出自六级词', optTexts().every(function(s){ return lv6cn[s]; }));
 }catch(e){ t('级数切换段抛异常: '+e.message, false); }
 
-/* ---------- 九、音效不削顶 ---------- */
+/* ---------- 九、品牌名 ---------- */
+try{
+  // 首页大标题固定是 App 名，不再兼当级别指示——级别交给下面那个开关显示。
+  // renderHome() 以前会把它改写成「四级词汇」，那条已经删了，这里盯着别再回来
+  renderHome();
+  t('首页大标题是 App 名', document.querySelector('#scr-home h1').textContent === 'NATALIE的词汇库');
+}catch(e){ t('品牌名段抛异常: '+e.message, false); }
+
+/* ---------- 十、音效不削顶 ---------- */
 setTitle();
 try{
   S.cfg.sfx = true;

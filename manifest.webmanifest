@@ -1,6 +1,6 @@
 {
-  "name": "英语词汇",
-  "short_name": "英语词汇",
+  "name": "NATALIE的词汇库",
+  "short_name": "NATALIE的词汇库",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

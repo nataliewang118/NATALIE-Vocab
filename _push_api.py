@@ -6,7 +6,7 @@
 import base64, json, subprocess, sys, urllib.error, urllib.request
 sys.stdout.reconfigure(encoding='utf-8')
 
-REPO = 'nataliewang118/cet6-vocab'
+REPO = 'nataliewang118/NATALIE-Vocab'
 BRANCH = 'master'
 GH = r'C:\Program Files\GitHub CLI\gh.exe'
 TOKEN = subprocess.check_output([GH, 'auth', 'token'], text=True).strip()

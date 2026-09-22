@@ -1,4 +1,4 @@
-# 英语词汇
+# NATALIE的词汇库
 
 给自己背 CET4 / CET6 词汇用的单文件网页应用。无需编译、无需账号、无后端，
 学习记录只存在浏览器本地（localStorage）。**四级和六级装在同一个 App 里，首页左上角切换。**
@@ -64,7 +64,12 @@
 发布到 GitHub Pages 后**电脑不用开机也能用**，断网也能用（离线缓存只在 https 下才让注册，
 这是它比本机模式强的地方）。
 
-网址是 <https://nataliewang118.github.io/cet6-vocab/>。
+网址是 <https://nataliewang118.github.io/NATALIE-Vocab/>。
+
+> 仓库以前叫 `cet6-vocab`、页面叫「英语词汇」，2026-09-22 改成现在这个。
+> **旧网址会自动跳转到新网址**，老书签不会失效。
+> ⚠️ 仓库名只能用 ASCII——中文会被 GitHub **静默删掉**（不报错）。
+> 所以「NATALIE的词汇库」只出现在 App 里，仓库/网址里是 `NATALIE-Vocab`。
 
 改完发布就两步：
 
