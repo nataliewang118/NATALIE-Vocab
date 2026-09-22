@@ -67,9 +67,15 @@
 网址是 <https://nataliewang118.github.io/NATALIE-Vocab/>。
 
 > 仓库以前叫 `cet6-vocab`、页面叫「英语词汇」，2026-09-22 改成现在这个。
-> **旧网址会自动跳转到新网址**，老书签不会失效。
-> ⚠️ 仓库名只能用 ASCII——中文会被 GitHub **静默删掉**（不报错）。
+> ⚠️ 仓库名只能用 ASCII——中文会被 GitHub **静默删掉**（不报错，不报错这点最坑）。
 > 所以「NATALIE的词汇库」只出现在 App 里，仓库/网址里是 `NATALIE-Vocab`。
+
+> ⚠️ **旧网址 <https://nataliewang118.github.io/cet6-vocab/> 现在是 404，不会跳转。**
+> GitHub 只给**仓库页面**做改名跳转，**Pages 站点不跳**（实测过）。
+> 手机主屏上要是加过旧地址的图标，删掉重新用新网址加一次。
+
+**好消息：学习记录不会丢。** localStorage 是按**域名**存的（`nataliewang118.github.io`），
+跟后面的路径无关，所以改仓库名不影响进度。
 
 改完发布就两步：
 
